@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Hi {{data.name}}</h1>
+<div mat-dialog-content>
+
+  <mat-form-field>
+    <mat-label>Enter Feedback</mat-label>
+    <input matInput autocomplete="off" [(ngModel)]="data.feedback" >
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close (click)="closeFeedback()">No Thanks</button>
+  <button mat-raised-button color="primary" [disabled]="!data.feedback?.trim()" [mat-dialog-close]="data.feedback">Save</button>
+</div>

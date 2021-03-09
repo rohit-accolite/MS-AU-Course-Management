@@ -1,0 +1,21 @@
+
+.welcome-card {
+    display: flex;
+    // flex
+    background-color: cornflowerblue;
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+    height: 100px;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// mat-card-title {
+//     margin-top: 5rem;
+// }
+mat-card-subtitle {
+    margin-top: 5rem;
+    margin-left: 1.9rem;
+}
