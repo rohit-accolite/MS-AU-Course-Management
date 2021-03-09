@@ -4,14 +4,21 @@ export class Course {
     preRequisite!: string;
     createdOn!: Date;
     lastModifiedOn!: Date;
-    userId!: number;
+    createdBy!: number;
 
-    constructor(courseName: string, courseDescription: string, preRequisite: string, createdOn: Date, lastModifiedOn: Date, userId: number) {
-        this.courseName = courseName;
-        this.courseDescription = courseDescription;
-        this.preRequisite = preRequisite;
-        this.createdOn = createdOn;
-        this.lastModifiedOn = lastModifiedOn;
-        this.userId = userId;
+    constructor(courseName: string, courseDescription: string, preRequisite: string, createdOn: Date, lastModifiedOn: Date, createdBy: number) {
+        // if(courseName)
+            this.courseName = courseName;
+        // if(courseDescription)
+            this.courseDescription = courseDescription;
+        // if(preRequisite)
+            this.preRequisite = preRequisite;
+        // if(createdOn)
+            this.createdOn = createdOn;
+        // if(lastModifiedOn)
+            this.lastModifiedOn = lastModifiedOn;
+        // if(createdByUser)
+            this.createdBy = createdBy;
+        
     }
 }

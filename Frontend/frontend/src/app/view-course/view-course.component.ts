@@ -5,6 +5,7 @@ import { ViewCourseService } from './view-course.service';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { FeedbackDialogComponent } from '../feedback-dialog/feedback-dialog.component';
 import { Feedback } from '../models/feedback';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-view-course',
@@ -13,7 +14,7 @@ import { Feedback } from '../models/feedback';
 })
 export class ViewCourseComponent implements OnInit {
 
-  constructor(private router: Router, private viewCouseService: ViewCourseService, public dialog: MatDialog) { }
+  constructor(private router: Router, private viewCouseService: ViewCourseService, public dialog: MatDialog, private toastr: ToastrService) { }
 
   selectedCourse: any;
   OPUser: any;
@@ -42,8 +43,7 @@ export class ViewCourseComponent implements OnInit {
       this.courseSkills = resp;
       localStorage.setItem('skills',JSON.stringify(this.courseSkills));
     }, (error: any) => {
-      // this.toastr.error('Error!', 'Can not connect to database to fetch tasks');
-      console.log("Error");
+      this.toastr.error('Could not fetch skills', 'Error!');
     });
 
     this.viewCouseService.getFeedBacksByCourseId(this.selectedCourse.id).subscribe((resp: any) =>{
@@ -53,15 +53,14 @@ export class ViewCourseComponent implements OnInit {
       }
       this.dataSource = new MatTableDataSource(this.courseFeedbacks);
     }, (error: any) => {
-      // this.toastr.error('Error!', 'Can not connect to database to fetch tasks');
-      console.log("Error");
+      this.toastr.error('Could not fetch feedbacks', 'Error!');
+
     });
 
     this.viewCouseService.getUserById(this.selectedCourse.createdBy).subscribe((resp: any) =>{
       this.OPUser = resp;
     }, (error: any) => {
-      // this.toastr.error('Error!', 'Can not connect to database to fetch tasks');
-      console.log("Error");
+      this.toastr.error('Could not fetch user data', 'Error!');
     });
   }
 
@@ -69,10 +68,13 @@ export class ViewCourseComponent implements OnInit {
     this.router.navigate(['home']);
   }
 
+  goToEditCourse(): void {
+    this.router.navigate(['edit']);
+  }
+
   signOut(): void {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then( () => {
-      // localStorage.removeItem('userData');
       localStorage.clear();
       console.log('User signed out.');
     });
@@ -80,13 +82,12 @@ export class ViewCourseComponent implements OnInit {
   }
   
   openFeedbackDialog(): void {
-    // console.log('open');
+    this.feedbackText = '';
     const dialogRef = this.dialog.open(FeedbackDialogComponent, {
       data: {name: this.currentUser.firstName, feedback: this.feedbackText}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log(typeof(result));
       if(result == null) return;
       
       this.feedbackText = result;
@@ -99,11 +100,11 @@ export class ViewCourseComponent implements OnInit {
             this.courseFeedbacks[i].createdOn = new Date(this.courseFeedbacks[i].createdOn);
           }
           this.dataSource = new MatTableDataSource(this.courseFeedbacks);
+          this.toastr.success('Feedback Added', 'Success!');
         }, (error: any) => {
-          // this.toastr.error('Error!', 'Can not connect to database to fetch tasks');
-          console.log("Error");
+          this.toastr.error('Could not add feedback', 'Error!');
         });
-      })
+      });
     });
   }
 }

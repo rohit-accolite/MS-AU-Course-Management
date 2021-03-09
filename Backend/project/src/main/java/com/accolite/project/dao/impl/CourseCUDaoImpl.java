@@ -21,7 +21,6 @@ public class CourseCUDaoImpl implements ICourseCUDao {
     @Override
     public Course add(Course course) {
         final KeyHolder holder = new GeneratedKeyHolder();
-
         String sql = "INSERT INTO COURSES ( COURSE_NAME, COURSE_DESCRIPTION, PREREQUISITE, CREATED_ON, LAST_MODIFIED_ON, USER_ID )"
                 + "VALUES ( :COURSE_NAME, :COURSE_DESCRIPTION, :PREREQUISITE, :CREATED_ON, :LAST_MODIFIED_ON, :USER_ID )";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
@@ -39,9 +38,9 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 
     @Override
     public Course updateById(int id, Course newCourse) {
-        Course oldCourse = iCourseRDDao.getById(id);
+//        Course oldCourse = iCourseRDDao.getById(id);
 
-        if (!areSame(oldCourse, newCourse)) {
+//        if (!areSame(oldCourse, newCourse)) {
             String sql = "UPDATE COURSES SET COURSE_NAME  = :COURSE_NAME, COURSE_DESCRIPTION = :COURSE_DESCRIPTION," +
                     " PREREQUISITE = :PREREQUISITE, LAST_MODIFIED_ON = :LAST_MODIFIED_ON WHERE COURSE_ID = :COURSE_ID";
             MapSqlParameterSource srcMap = new MapSqlParameterSource();
@@ -55,8 +54,8 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 
             Course updatedCourse = iCourseRDDao.getById(id);
             return updatedCourse;
-        }
-        return new Course();
+//        }
+//        return new Course();
     }
 
     public boolean areSame(Course oldCourse, Course newCourse) {

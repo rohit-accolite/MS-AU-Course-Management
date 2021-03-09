@@ -1,0 +1,45 @@
+<div>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="goToHome();" class="home-icon">
+        <mat-icon>home</mat-icon>
+      </button>
+        <span>Course Management System</span>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="signOut();" class="logout-icon">
+          <mat-icon>logout</mat-icon>
+        </button>
+    </mat-toolbar>
+</div>
+
+<div class="container" align = "center">
+    <br><br>
+ 
+   <h1>Edit Course</h1>
+   <form #courseform="ngForm" class="example-form" (ngSubmit)="editCourse()">
+ 
+       <mat-form-field class="example-full-width" appearance="outline">
+           <mat-label>Course Name</mat-label><br>
+           <input type="text" matInput autocomplete="off" name = "courseName" [(ngModel)] = "selectedCourse.courseName" required><br><br>
+       </mat-form-field>
+       <br>
+       <mat-form-field class="example-full-width" appearance="outline">
+         <mat-label>Course Description</mat-label><br>
+         <input type="text" matInput autocomplete="off" name = "courseDescription" [(ngModel)] = "selectedCourse.courseDescription" required><br><br>
+       </mat-form-field>
+       <br>
+       <mat-form-field class="example-full-width" appearance="outline">
+         <mat-label>Prerequisite</mat-label><br>
+         <input type="text" matInput autocomplete="off" name = "preRequisite" [(ngModel)] = "selectedCourse.preRequisite" required><br><br>
+       </mat-form-field>
+       <br>
+       <mat-form-field class="example-full-width" appearance="outline">
+         <mat-label>Skills (Separated by space) </mat-label><br>
+         <input type="text" matInput autocomplete="off" name = "skillName" [(ngModel)] = "selectedSkill.skillName" required><br><br>
+       </mat-form-field>
+       <br>
+         
+       <button type="submit" [disabled]="!courseform.valid" mat-raised-button color="primary">Update Course</button> 
+   </form> 
+   <br>
+ 
+   </div>

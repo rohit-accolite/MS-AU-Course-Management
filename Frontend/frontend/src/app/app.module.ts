@@ -9,9 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GoogleApiModule } from 'ng-gapi';
 import { MaterialModule } from './material.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ToastrModule } from 'ngx-toastr';
+
 import { ViewCourseComponent } from './view-course/view-course.component';
 import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.component';
+import { AddCourseComponent } from './add-course/add-course.component';
+import { EditCourseComponent } from './edit-course/edit-course.component';
+
+
 
 @NgModule({
   declarations: [
@@ -19,7 +25,9 @@ import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.compo
     LoginComponent,
     HomeComponent,
     ViewCourseComponent,
-    FeedbackDialogComponent
+    FeedbackDialogComponent,
+    AddCourseComponent,
+    EditCourseComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +36,9 @@ import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.compo
     HttpClientModule,
     GoogleApiModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    ToastrModule.forRoot()
   ],
   entryComponents: [
     FeedbackDialogComponent

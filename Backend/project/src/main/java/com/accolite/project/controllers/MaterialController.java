@@ -1,7 +1,6 @@
 package com.accolite.project.controllers;
 
 import com.accolite.project.models.Material;
-import com.accolite.project.models.Skill;
 import com.accolite.project.services.IMaterialService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -23,13 +22,12 @@ public class MaterialController {
 
     @PostMapping("/add")
     public @ResponseBody
-    Material addMaterial(@RequestParam int courseId, @RequestParam String fileName, @RequestParam String fileType, @RequestParam String createdOn, @RequestParam MultipartFile file) {
+    Material addMaterial(@RequestParam String courseId, @RequestParam String fileName, @RequestParam String fileType, @RequestParam String createdOn, @RequestParam MultipartFile file) {
         Material material = new Material();
-        material.setCourseId(courseId);
+        material.setCourseId(Integer.parseInt(courseId));
         material.setFileName(fileName);
         material.setFileType(fileType);
         material.setCreatedOn(createdOn);
-
         return iMaterialService.add(material, file);
     }
 }

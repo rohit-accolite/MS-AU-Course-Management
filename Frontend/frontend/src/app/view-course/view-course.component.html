@@ -14,16 +14,23 @@
 <mat-card class="course-card">
     <mat-card-header>
       <mat-card-title>{{selectedCourse.courseName}} Course</mat-card-title>
-      <mat-card-subtitle>Created By : {{OPUser?.email}}</mat-card-subtitle>
+      <mat-card-subtitle>Creator Email : {{OPUser?.email}}</mat-card-subtitle>
       <mat-card-subtitle>Created On : {{selectedCourse.createdOn | date:'EEEE, MMMM d, yyyy h:mm a'}}</mat-card-subtitle>
       <mat-card-subtitle>Last Updated On : {{selectedCourse.lastModifiedOn | date:'EEEE, MMMM d, yyyy h:mm a'}}</mat-card-subtitle>
-      <mat-card-subtitle>Pre Requisite : {{selectedCourse.preRequisite}}</mat-card-subtitle>
-      <mat-card-subtitle>Description : {{selectedCourse.courseDescription}}</mat-card-subtitle>
-      <mat-card-subtitle>Skills : {{courseSkills?.skillName}}</mat-card-subtitle>
+      <br><br>
+      <mat-card-title>Description : </mat-card-title>
+      <mat-card-subtitle>{{selectedCourse.courseDescription}}</mat-card-subtitle>
+      <br><br>
+      <mat-card-title>Pre Requisite : </mat-card-title>
+      <mat-card-subtitle>{{selectedCourse.preRequisite}}</mat-card-subtitle>
+      <br><br>
+      <mat-card-title>Skills : </mat-card-title>
+      <mat-card-subtitle>{{courseSkills?.skillName}}</mat-card-subtitle>
+      <br><br>
     </mat-card-header>
     
     <mat-card-actions>
-      <button mat-stroked-button color="primary">EDIT COURSE</button>
+      <button mat-stroked-button color="primary" (click)="goToEditCourse()" [disabled]="selectedCourse.createdBy != currentUser.id">EDIT COURSE</button>
       <button mat-stroked-button color="primary" (click)="openFeedbackDialog()" >ADD FEEDBACK</button>
     </mat-card-actions>
   </mat-card>
@@ -52,4 +59,8 @@
   
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">No feedback available</td>
+    </tr>
   </table>
