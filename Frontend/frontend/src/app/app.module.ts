@@ -17,6 +17,7 @@ import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.compo
 import { AddCourseComponent } from './add-course/add-course.component';
 import { EditCourseComponent } from './edit-course/edit-course.component';
 import { MaterialDialogComponent } from './material-dialog/material-dialog.component';
+import { TrendingComponent } from './trending/trending.component';
 
 
 
@@ -29,7 +30,8 @@ import { MaterialDialogComponent } from './material-dialog/material-dialog.compo
     FeedbackDialogComponent,
     AddCourseComponent,
     EditCourseComponent,
-    MaterialDialogComponent
+    MaterialDialogComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,

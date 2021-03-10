@@ -10,4 +10,6 @@ public interface IFeedbackDao {
     List<Feedback> getAll();
 
     List<Feedback> getByCourseId(int courseId);
+
+    String getAvgRatingOnCourse(int courseId);
 }

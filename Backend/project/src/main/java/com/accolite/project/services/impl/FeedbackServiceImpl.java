@@ -27,4 +27,9 @@ public class FeedbackServiceImpl implements IFeedbackService {
     public List<Feedback> getByCourseId(int id) {
         return iFeedbackDao.getByCourseId(id);
     }
+
+    @Override
+    public String getAvgRatingOnCourse(int courseId) {
+        return iFeedbackDao.getAvgRatingOnCourse(courseId);
+    }
 }

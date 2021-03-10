@@ -1,0 +1,27 @@
+<div>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="goToHome();" class="home-icon">
+        <mat-icon>home</mat-icon>
+      </button>
+        <span>Course Management System</span>
+        <button mat-icon-button (click)="goToAddCourse();" class="space">
+          <mat-icon>add </mat-icon>
+        </button>
+
+        <span class="spacer"></span>
+
+        <button mat-icon-button (click)="signOut();" class="logout-icon">
+          <mat-icon>logout</mat-icon>
+        </button>
+    </mat-toolbar>
+</div>
+
+<div class = "graph">
+    <canvas id="feedbackChart"></canvas>
+</div>
+
+<div class = "graph">
+    <canvas id="ratingChart"></canvas>
+</div>
+
+

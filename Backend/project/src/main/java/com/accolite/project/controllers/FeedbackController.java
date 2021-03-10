@@ -30,4 +30,10 @@ public class FeedbackController {
     public Feedback addFeedback(@RequestBody Feedback feedback) {
         return iFeedbackService.add(feedback);
     }
+
+    @GetMapping("/avg-rating-on-course/{courseId}")
+    public @ResponseBody
+    String getAvgRatingOnCourse(@PathVariable int courseId) {
+        return iFeedbackService.getAvgRatingOnCourse(courseId);
+    }
 }

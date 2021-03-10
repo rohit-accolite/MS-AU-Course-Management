@@ -63,4 +63,18 @@ public class FeedbackDaoImpl implements IFeedbackDao {
                 resultSet.getString(6)
         ));
     }
+
+    @Override
+    public String getAvgRatingOnCourse(int courseId) {
+        String sql = "SELECT AVG(RATING) FROM FEEDBACKS WHERE COURSE_ID = :COURSE_ID";
+        MapSqlParameterSource srcMap = new MapSqlParameterSource();
+        srcMap.addValue("COURSE_ID", courseId);
+        try {
+            Float result = (namedParameterJdbcTemplate.queryForObject(sql, srcMap, Float.class));
+            return result.toString();
+        } catch (Exception e) {
+            return "0";
+        }
+
+    }
 }

@@ -4,11 +4,15 @@
         <mat-icon>home</mat-icon>
       </button>
         <span>Course Management System</span>
-        
-        <button mat-icon-button (click)="goToAddCourse();" class="create-icon">
-          <mat-icon>add_circle_outline</mat-icon>
+        <button mat-icon-button (click)="goToAddCourse();" class="space">
+          <mat-icon>add </mat-icon>
         </button>
+        <button mat-icon-button (click)="goToTrending()" class="space">
+          <mat-icon>trending_up</mat-icon>
+        </button>
+
         <span class="spacer"></span>
+
         <button mat-icon-button (click)="signOut();" class="logout-icon">
           <mat-icon>logout</mat-icon>
         </button>
