@@ -16,6 +16,7 @@ import { ViewCourseComponent } from './view-course/view-course.component';
 import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { EditCourseComponent } from './edit-course/edit-course.component';
+import { MaterialDialogComponent } from './material-dialog/material-dialog.component';
 
 
 
@@ -27,7 +28,8 @@ import { EditCourseComponent } from './edit-course/edit-course.component';
     ViewCourseComponent,
     FeedbackDialogComponent,
     AddCourseComponent,
-    EditCourseComponent
+    EditCourseComponent,
+    MaterialDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { EditCourseComponent } from './edit-course/edit-course.component';
     ToastrModule.forRoot()
   ],
   entryComponents: [
-    FeedbackDialogComponent
+    FeedbackDialogComponent,
+    MaterialDialogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

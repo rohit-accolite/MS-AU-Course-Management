@@ -42,7 +42,7 @@ public class MaterialDaoImpl implements IMaterialDao {
 
     @Override
     public List<Material> getMaterialsByCourseId(int courseId) {
-        String sql = "SELECT * FROM MATERIALS WHERE COURSE_ID = :COURSE_ID";
+        String sql = "SELECT * FROM MATERIALS WHERE COURSE_ID = :COURSE_ID ORDER BY MATERIAL_ID DESC";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("COURSE_ID", courseId);
 
@@ -56,6 +56,14 @@ public class MaterialDaoImpl implements IMaterialDao {
                 resultSet.getBytes(7),
                 resultSet.getString(8)
         ));
+    }
+
+    @Override
+    public boolean deleteMaterialById(int id) {
+        String sql = "DELETE FROM MATERIALS WHERE MATERIAL_ID = :id";
+        MapSqlParameterSource srcMap = new MapSqlParameterSource();
+        srcMap.addValue("id", id);
+        return namedParameterJdbcTemplate.update(sql, srcMap) == 1 ? true : false;
     }
 
     public Material getById(int id) {

@@ -23,4 +23,9 @@ public class MaterialServiceImpl implements IMaterialService {
     public List<Material> getMaterialsByCourseId(int courseId) {
         return iMaterialDao.getMaterialsByCourseId(courseId);
     }
+
+    @Override
+    public boolean deleteMaterialById(int id) {
+        return iMaterialDao.deleteMaterialById(id);
+    }
 }

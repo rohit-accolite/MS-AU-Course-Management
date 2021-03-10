@@ -18,16 +18,71 @@
       <mat-card-subtitle>Created On : {{selectedCourse.createdOn | date:'EEEE, MMMM d, yyyy h:mm a'}}</mat-card-subtitle>
       <mat-card-subtitle>Last Updated On : {{selectedCourse.lastModifiedOn | date:'EEEE, MMMM d, yyyy h:mm a'}}</mat-card-subtitle>
       <br><br>
-      <mat-card-title>Description : </mat-card-title>
+      <mat-card-title>Description </mat-card-title>
       <mat-card-subtitle>{{selectedCourse.courseDescription}}</mat-card-subtitle>
       <br><br>
-      <mat-card-title>Pre Requisite : </mat-card-title>
+      <mat-card-title>Pre Requisite </mat-card-title>
       <mat-card-subtitle>{{selectedCourse.preRequisite}}</mat-card-subtitle>
       <br><br>
-      <mat-card-title>Skills : </mat-card-title>
+      <mat-card-title>Skills </mat-card-title>
       <mat-card-subtitle>{{courseSkills?.skillName}}</mat-card-subtitle>
       <br><br>
     </mat-card-header>
+
+    <mat-accordion>
+      <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Training Material
+          </mat-panel-title>
+          <mat-panel-description>
+            By Version
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <span class="space">Upload new material</span>
+        <button class="space" mat-stroked-button (click)="openMaterialDialog()" [disabled]="selectedCourse.createdBy != currentUser.id" color="primary">
+          <mat-icon>upload</mat-icon>             
+        </button>
+        <br><br>
+        <table mat-table [dataSource]="materialSource" class="mat-elevation-z8">
+
+          <ng-container matColumnDef="version">
+            <th mat-header-cell *matHeaderCellDef > Version No. </th>
+            <td mat-cell *matCellDef="let element; let i = index;"> {{this.materialListLength - i}} </td>
+          </ng-container>
+      
+          <ng-container matColumnDef="fileName">
+            <th mat-header-cell *matHeaderCellDef > Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.fileName}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="createdOn">
+            <th mat-header-cell *matHeaderCellDef> Added On </th>
+            <td mat-cell *matCellDef="let element"> {{element.createdOn | date:'EEEE, MMMM d, yyyy h:mm a'}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="action">
+            <th mat-header-cell *matHeaderCellDef> Action </th>
+            <td mat-cell *matCellDef="let element"> 
+              <button mat-stroked-button (click) = "downloadMaterial(element.fileData, element.fileType)" color="primary">
+                <mat-icon>get_app</mat-icon>             
+              </button>
+              <button mat-stroked-button [disabled]="selectedCourse.createdBy != currentUser.id" (click) = "deleteMaterial(element.id)" color="warn">
+                <mat-icon>delete</mat-icon>             
+              </button>
+            </td>
+          </ng-container>
+        
+          <tr mat-header-row *matHeaderRowDef="materialColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: materialColumns;"></tr>
+      
+          <tr class="mat-row" *matNoDataRow>
+            <td class="mat-cell" colspan="4">No material available</td>
+          </tr>
+        </table>
+      </mat-expansion-panel>
+    </mat-accordion>
     
     <mat-card-actions>
       <button mat-stroked-button color="primary" (click)="goToEditCourse()" [disabled]="selectedCourse.createdBy != currentUser.id">EDIT COURSE</button>

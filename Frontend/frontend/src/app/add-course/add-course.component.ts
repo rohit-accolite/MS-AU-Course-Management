@@ -50,7 +50,6 @@ export class AddCourseComponent implements OnInit {
     this.file = event.target.files[0];
     if(this.file) {
       this.fileName = this.file.name;
-      console.log('typeof(this.file) == null');
     }
     else {
       this.fileName = 'Upload File';
@@ -64,7 +63,6 @@ export class AddCourseComponent implements OnInit {
   signOut(): void {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then( () => {
-      // localStorage.removeItem('userData');
       localStorage.clear();
       console.log('User signed out.');
     });

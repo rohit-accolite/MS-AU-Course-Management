@@ -10,4 +10,6 @@ public interface IMaterialService {
 
     List<Material> getMaterialsByCourseId(int courseId);
 
+    boolean deleteMaterialById(int id);
+
 }

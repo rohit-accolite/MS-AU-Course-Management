@@ -13,8 +13,6 @@
     </mat-toolbar>
 </div>
 
-
-
 <div class="container" align = "center">
    <br><br>
 
@@ -44,23 +42,14 @@
 
       <div class="fileSelect">
         <mat-toolbar class="onlyThis">
-          <!-- Browse Button -->
-
-          <!-- <button mat-flat-button color="primary" class="btn">
-            Browse
-          </button> -->
-          <!-- <span class="spacer"></span> -->
-          <!-- Fetch selected file on change -->
           <input type="file" #fileInput id="uploadFile" (change)="onFileChanged($event)" name="file" required>
-          <!-- Display file name -->
-          <input matInput [(ngModel)]="fileName" readonly name="name" />
-          
+          <input matInput [(ngModel)]="fileName" readonly name="name" />  
         </mat-toolbar>
-      </div>
-        
+      </div> 
       <br>
+
       <button type="submit" [disabled]="!courseform.valid" mat-raised-button color="primary">Add Course</button> 
   </form> 
   <br>
 
-  </div>
+</div>

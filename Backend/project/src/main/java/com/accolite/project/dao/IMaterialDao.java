@@ -9,4 +9,6 @@ public interface IMaterialDao {
     Material add(Material material, MultipartFile file);
 
     List<Material> getMaterialsByCourseId(int courseId);
+
+    boolean deleteMaterialById(int id);
 }

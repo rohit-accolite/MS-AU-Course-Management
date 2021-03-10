@@ -30,4 +30,9 @@ public class MaterialController {
         material.setCreatedOn(createdOn);
         return iMaterialService.add(material, file);
     }
+
+    @DeleteMapping("/delete/{materialId}")
+    public boolean deleteCourseById(@PathVariable int materialId) {
+        return iMaterialService.deleteMaterialById(materialId);
+    }
 }
