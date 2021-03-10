@@ -21,12 +21,13 @@ public class FeedbackDaoImpl implements IFeedbackDao {
     public Feedback add(Feedback feedback) {
         final KeyHolder holder = new GeneratedKeyHolder();
 
-        String sql = "INSERT INTO FEEDBACKS ( COURSE_ID, PARTICIPANT_NAME, FEEDBACK_TEXT, CREATED_ON )"
-                + "VALUES ( :COURSE_ID, :PARTICIPANT_NAME, :FEEDBACK_TEXT, :CREATED_ON )";
+        String sql = "INSERT INTO FEEDBACKS ( COURSE_ID, PARTICIPANT_NAME, FEEDBACK_TEXT, RATING, CREATED_ON )"
+                + "VALUES ( :COURSE_ID, :PARTICIPANT_NAME, :FEEDBACK_TEXT, :RATING, :CREATED_ON )";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("COURSE_ID", feedback.getCourseId());
         srcMap.addValue("PARTICIPANT_NAME", feedback.getParticipantName());
         srcMap.addValue("FEEDBACK_TEXT", feedback.getFeedbackText());
+        srcMap.addValue("RATING", feedback.getRating());
         srcMap.addValue("CREATED_ON", feedback.getCreatedOn());
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
@@ -42,7 +43,8 @@ public class FeedbackDaoImpl implements IFeedbackDao {
                 resultSet.getInt(2),
                 resultSet.getString(3),
                 resultSet.getString(4),
-                resultSet.getString(5)
+                resultSet.getInt(5),
+                resultSet.getString(6)
         ));
     }
 
@@ -57,7 +59,8 @@ public class FeedbackDaoImpl implements IFeedbackDao {
                 resultSet.getInt(2),
                 resultSet.getString(3),
                 resultSet.getString(4),
-                resultSet.getString(5)
+                resultSet.getInt(5),
+                resultSet.getString(6)
         ));
     }
 }

@@ -5,13 +5,15 @@ public class Feedback {
     int courseId;
     String participantName;
     String feedbackText;
+    int rating;
     String createdOn;
 
-    public Feedback(int id, int courseId, String participantName, String feedbackText, String createdOn) {
+    public Feedback(int id, int courseId, String participantName, String feedbackText, int rating, String createdOn) {
         this.id = id;
         this.courseId = courseId;
         this.participantName = participantName;
         this.feedbackText = feedbackText;
+        this.rating = rating;
         this.createdOn = createdOn;
     }
 
@@ -49,6 +51,14 @@ public class Feedback {
 
     public void setFeedbackText(String feedbackText) {
         this.feedbackText = feedbackText;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
     }
 
     public String getCreatedOn() {

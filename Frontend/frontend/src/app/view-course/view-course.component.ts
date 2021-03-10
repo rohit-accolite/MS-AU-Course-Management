@@ -27,9 +27,10 @@ export class ViewCourseComponent implements OnInit {
   lastModifiedOn: any;
   
   feedbackText: any;
+  rating: any;
   
   dataSource: any;
-  displayedColumns: string[] = ['position', 'participantName', 'feedbackText', 'createdOn'];
+  displayedColumns: string[] = ['position', 'participantName', 'feedbackText', 'rating', 'createdOn'];
   
   materialSource: any;
   materialColumns: string[] = ['version', 'fileName', 'createdOn', 'action'];
@@ -152,15 +153,20 @@ export class ViewCourseComponent implements OnInit {
 
   openFeedbackDialog(): void {
     this.feedbackText = '';
+    this.rating = '';
     const dialogRef = this.dialog.open(FeedbackDialogComponent, {
-      data: {name: this.currentUser.firstName, feedback: this.feedbackText}
+      data: {name: this.currentUser.firstName, feedback: this.feedbackText, rating: this.rating}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      if(result == null) return;
-      
-      this.feedbackText = result;
-      let newFeedback = new Feedback(this.selectedCourse.id, this.currentUser.firstName, this.feedbackText, new Date());
+      if(!result.feedback || !result.rating) {
+        this.toastr.error('Could not add feedback', 'Error!');
+        return;
+      } 
+      this.feedbackText = result.feedback;
+      this.rating = result.rating;
+
+      let newFeedback = new Feedback(this.selectedCourse.id, this.currentUser.firstName, this.feedbackText, this.rating, new Date());
       
       this.viewCouseService.createFeedback(newFeedback).subscribe((resp: any) => {
         this.getFeedBacksByCourseId(this.selectedCourse.id);

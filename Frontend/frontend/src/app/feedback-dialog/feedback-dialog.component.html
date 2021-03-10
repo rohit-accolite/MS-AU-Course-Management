@@ -5,8 +5,19 @@
     <mat-label>Enter Feedback</mat-label>
     <input matInput autocomplete="off" [(ngModel)]="data.feedback" >
   </mat-form-field>
+<br>
+  <mat-form-field>
+    <mat-label>Rating</mat-label>
+    <mat-select [(ngModel)]="data.rating">
+      <mat-option value=1>1</mat-option>
+      <mat-option value=2>2</mat-option>
+      <mat-option value=3>3</mat-option>
+      <mat-option value=4>4</mat-option>
+      <mat-option value=5>5</mat-option>
+    </mat-select>
+  </mat-form-field>
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close (click)="closeFeedback()">No Thanks</button>
-  <button mat-raised-button color="primary" [disabled]="!data.feedback?.trim()" [mat-dialog-close]="data.feedback">Save</button>
+  <button mat-raised-button color="primary" [disabled]="!data.feedback?.trim() || !data.rating" [mat-dialog-close]="data">Save</button>
 </div>

@@ -14,6 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSortModule } from '@angular/material/sort';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
     imports: [
@@ -30,7 +31,8 @@ import { MatSortModule } from '@angular/material/sort';
         MatDialogModule,
         MatExpansionModule,
         MatDividerModule,
-        MatSortModule
+        MatSortModule,
+        MatSelectModule
     ],
     exports: [
         MatButtonModule,
@@ -46,7 +48,8 @@ import { MatSortModule } from '@angular/material/sort';
         MatDialogModule,
         MatExpansionModule,
         MatDividerModule,
-        MatSortModule
+        MatSortModule,
+        MatSelectModule
     ]
 })
 export class MaterialModule { }
