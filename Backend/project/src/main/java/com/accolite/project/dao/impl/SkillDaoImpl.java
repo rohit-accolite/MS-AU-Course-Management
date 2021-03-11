@@ -32,7 +32,7 @@ public class SkillDaoImpl implements ISkillDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         skill.setId(holder.getKey().intValue());
-        logger.info("Skill added with  Id " + holder.getKey());
+        logger.info("Skill added with  Id {}", holder.getKey());
         return skill;
     }
 
@@ -53,14 +53,14 @@ public class SkillDaoImpl implements ISkillDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
         try {
-            logger.info("Fetching skill with Id " + id);
+            logger.info("Fetching skill with Id {}", id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Skill(
                     resultSet.getInt(1),
                     resultSet.getInt(2),
                     resultSet.getString(3)
             ));
         } catch (Exception e) {
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause() , Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Skill();
         }
     }
@@ -72,14 +72,14 @@ public class SkillDaoImpl implements ISkillDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("courseId", courseId);
         try {
-            logger.info("Fetching all skills for course with Id " + courseId);
+            logger.info("Fetching all skills for course with Id {}", courseId);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Skill(
                     resultSet.getInt(1),
                     resultSet.getInt(2),
                     resultSet.getString(3)
             ));
         } catch (Exception e) {
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause() , Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Skill();
         }
     }
@@ -94,9 +94,8 @@ public class SkillDaoImpl implements ISkillDao {
         srcMap.addValue("SKILL_ID", id);
 
         namedParameterJdbcTemplate.update(sql, srcMap);
-        logger.info("Updated skill with Id " + id);
-        Skill updatedSkill = this.getById(id);
-        return updatedSkill;
+        logger.info("Updated skill with Id {}", id);
+        return this.getById(id);
     }
 
     @Override
@@ -104,7 +103,7 @@ public class SkillDaoImpl implements ISkillDao {
         String sql = "DELETE FROM SKILLS WHERE SKILL_ID = :id";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
-        logger.info("Deleted skill with Id " + id);
-        return namedParameterJdbcTemplate.update(sql, srcMap) == 1 ? true : false;
+        logger.info("Deleted skill with Id {}", id);
+        return (namedParameterJdbcTemplate.update(sql, srcMap) == 1);
     }
 }

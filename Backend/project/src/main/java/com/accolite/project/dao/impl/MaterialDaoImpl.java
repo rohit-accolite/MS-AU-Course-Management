@@ -35,14 +35,13 @@ public class MaterialDaoImpl implements IMaterialDao {
         try {
             srcMap.addValue("FILE_DATA", file.getBytes());
         } catch (IOException e) {
-//            e.printStackTrace();
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause() , Thread.currentThread().getStackTrace()[1].getMethodName());
         }
         srcMap.addValue("CREATED_ON", material.getCreatedOn());
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         material.setId(holder.getKey().intValue());
-        logger.info("Added material for course with Id " + material.getCourseId());
+        logger.info("Added material for course with Id {}", material.getCourseId());
         return this.getById(holder.getKey().intValue());
     }
 
@@ -52,7 +51,7 @@ public class MaterialDaoImpl implements IMaterialDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("COURSE_ID", courseId);
 
-        logger.info("Retrieved all materials for course with Id " + courseId);
+        logger.info("Retrieved all materials for course with Id {}", courseId);
         return namedParameterJdbcTemplate.query(sql, srcMap, (resultSet, rowNum) -> new Material(
                 resultSet.getInt(1),
                 resultSet.getInt(2),
@@ -70,8 +69,8 @@ public class MaterialDaoImpl implements IMaterialDao {
         String sql = "DELETE FROM MATERIALS WHERE MATERIAL_ID = :id";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
-        logger.info("Deleting material with Id " + id);
-        return namedParameterJdbcTemplate.update(sql, srcMap) == 1 ? true : false;
+        logger.info("Deleting material with Id {}", id);
+        return (namedParameterJdbcTemplate.update(sql, srcMap) == 1);
     }
 
     public Material getById(int id) {
@@ -79,7 +78,7 @@ public class MaterialDaoImpl implements IMaterialDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("ID", id);
         try {
-            logger.info("Trying to fetch material with Id " + id);
+            logger.info("Trying to fetch material with Id {}", id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Material(
                     resultSet.getInt(1),
                     resultSet.getInt(2),
@@ -91,7 +90,7 @@ public class MaterialDaoImpl implements IMaterialDao {
                     resultSet.getString(8)
             ));
         } catch (Exception e) {
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause() , Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Material();
         }
     }

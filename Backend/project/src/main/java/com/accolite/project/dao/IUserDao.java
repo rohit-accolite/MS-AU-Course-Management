@@ -6,7 +6,5 @@ public interface IUserDao {
 
     User add(User user);
 
-    User getUserByEmail(String email);
-
     User getById(int id);
 }

@@ -1,6 +1,5 @@
 package com.accolite.project.controllers;
 
-import com.accolite.project.models.Course;
 import com.accolite.project.models.Skill;
 import com.accolite.project.services.ISkillService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,6 @@
 package com.accolite.project.controllers;
 
 import com.accolite.project.models.Feedback;
-import com.accolite.project.models.Skill;
 import com.accolite.project.services.IFeedbackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

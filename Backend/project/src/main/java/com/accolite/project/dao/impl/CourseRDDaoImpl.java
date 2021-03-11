@@ -25,7 +25,7 @@ public class CourseRDDaoImpl implements ICourseRDDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
         try {
-            logger.info("Trying to fetch course with Id " + id);
+            logger.info("Trying to fetch course with Id {}", id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Course(
                     resultSet.getInt(1),
                     resultSet.getString(2),
@@ -36,7 +36,7 @@ public class CourseRDDaoImpl implements ICourseRDDao {
                     resultSet.getInt(7)
             ));
         } catch (Exception e) {
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause() , Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Course();
         }
     }
@@ -61,7 +61,7 @@ public class CourseRDDaoImpl implements ICourseRDDao {
         String sql = "DELETE FROM COURSES WHERE COURSE_ID = :id";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
-        logger.info("Deleting course with Id " + id);
-        return namedParameterJdbcTemplate.update(sql, srcMap) == 1 ? true : false;
+        logger.info("Deleting course with Id {}", id);
+        return (namedParameterJdbcTemplate.update(sql, srcMap) == 1);
     }
 }

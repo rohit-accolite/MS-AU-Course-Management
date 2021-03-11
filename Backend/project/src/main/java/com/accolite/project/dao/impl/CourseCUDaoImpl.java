@@ -37,15 +37,13 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         course.setId(holder.getKey().intValue());
-        logger.info("New course created with Id " + holder.getKey());
+        logger.info("New course created with Id {}", holder.getKey());
         return course;
     }
 
     @Override
     public Course updateById(int id, Course newCourse) {
-//        Course oldCourse = iCourseRDDao.getById(id);
 
-//        if (!areSame(oldCourse, newCourse)) {
         String sql = "UPDATE COURSES SET COURSE_NAME  = :COURSE_NAME, COURSE_DESCRIPTION = :COURSE_DESCRIPTION," +
                 " PREREQUISITE = :PREREQUISITE, LAST_MODIFIED_ON = :LAST_MODIFIED_ON WHERE COURSE_ID = :COURSE_ID";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
@@ -58,16 +56,8 @@ public class CourseCUDaoImpl implements ICourseCUDao {
         namedParameterJdbcTemplate.update(sql, srcMap);
 
         Course updatedCourse = iCourseRDDao.getById(id);
-        logger.info("Updated course with Id " + id);
+        logger.info("Updated course with Id {}", id);
         return updatedCourse;
-//        }
-//        return new Course();
-    }
 
-    public boolean areSame(Course oldCourse, Course newCourse) {
-        if (oldCourse.getCourseName().equals(newCourse.getCourseName()) && oldCourse.getCourseDescription().equals(newCourse.getCourseDescription())
-                && oldCourse.getPreRequisite().equals(newCourse.getPreRequisite())) {
-            return true;
-        } else return false;
     }
 }

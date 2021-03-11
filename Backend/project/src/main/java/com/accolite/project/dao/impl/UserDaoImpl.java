@@ -23,7 +23,7 @@ public class UserDaoImpl implements IUserDao {
     @Override
     public User add(User user) {
         final KeyHolder holder = new GeneratedKeyHolder();
-        logger.info("Trying to add user with email " + user.getEmail());
+        logger.info("Trying to add user with email {}", user.getEmail());
         String sql = "INSERT INTO USERS ( FIRST_NAME , LAST_NAME , EMAIL , DATE_OF_JOINING ) "
                 + " VALUES ( :FIRST_NAME , :LAST_NAME , :EMAIL , :DATE_OF_JOINING )";
 
@@ -43,25 +43,8 @@ public class UserDaoImpl implements IUserDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         user.setId(holder.getKey().intValue());
-        logger.info("Added user with Id " + holder.getKey());
+        logger.info("Added user with Id {}", holder.getKey());
         return user;
-    }
-
-    @Override
-    public User getUserByEmail(String email) {
-        MapSqlParameterSource srcMap = new MapSqlParameterSource();
-        String sql = "SELECT 1 FROM USERS WHERE EMAIL = ':EMAIL'";
-
-        srcMap.addValue("EMAIL", email);
-        List<User> old = namedParameterJdbcTemplate.query(sql, srcMap, (rs, rowNum) -> new User(
-                rs.getInt(1),
-                rs.getString(2),
-                rs.getString(3),
-                rs.getString(4),
-                rs.getString(5)
-        ));
-        logger.info("Fetched user with email " + email);
-        return old.get(0);
     }
 
     @Override
@@ -71,7 +54,7 @@ public class UserDaoImpl implements IUserDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
         try {
-            logger.info("Fetching user with Id " + id);
+            logger.info("Fetching user with Id {}", id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new User(
                     resultSet.getInt(1),
                     resultSet.getString(2),
@@ -80,7 +63,7 @@ public class UserDaoImpl implements IUserDao {
                     resultSet.getString(5)
             ));
         } catch (Exception e) {
-            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
+            logger.error("{} in method {}", e.getCause(), Thread.currentThread().getStackTrace()[1].getMethodName());
             return new User();
         }
     }
