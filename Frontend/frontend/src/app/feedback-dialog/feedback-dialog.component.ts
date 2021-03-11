@@ -14,7 +14,7 @@ export class FeedbackDialogComponent implements OnInit {
   }
 
   closeFeedback(): void {
-    console.log('close feedback');
+    // console.log('close feedback');
     this.dialogRef.close();
   }
 

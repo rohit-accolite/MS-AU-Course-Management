@@ -16,7 +16,7 @@ export class MaterialDialogComponent implements OnInit {
   }
 
   closeMaterial(): void {
-    console.log('close material');
+    // console.log('close material');
     this.dialogRef.close();
   }
 

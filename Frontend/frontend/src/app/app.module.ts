@@ -18,6 +18,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { EditCourseComponent } from './edit-course/edit-course.component';
 import { MaterialDialogComponent } from './material-dialog/material-dialog.component';
 import { TrendingComponent } from './trending/trending.component';
+import { ChartsModule } from 'ng2-charts';
 
 
 
@@ -42,7 +43,8 @@ import { TrendingComponent } from './trending/trending.component';
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    ChartsModule
   ],
   entryComponents: [
     FeedbackDialogComponent,

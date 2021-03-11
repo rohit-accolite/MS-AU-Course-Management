@@ -3,3 +3,448 @@
 11-03-2021 13:50:01.0572|INFO |Started ProjectApplication in 1.933 seconds (JVM running for 3.026)
 11-03-2021 13:50:16.0257|INFO |Retrieving all the courses
 11-03-2021 14:07:22.0687|INFO |Fetching user with Id 5
+11-03-2021 14:20:31.0709|INFO |Retrieving all the courses
+11-03-2021 14:20:31.0967|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:20:32.0052|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:20:32.0290|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:20:32.0366|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:20:32.0366|INFO |Course with Id 20 has no ratings
+11-03-2021 14:20:32.0375|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:21:27.0591|INFO |Retrieving all the courses
+11-03-2021 14:21:50.0423|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:21:50.0478|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:21:50.0487|INFO |Fetching user with Id 1
+11-03-2021 14:21:50.0513|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:22:18.0013|INFO |Retrieving all the courses
+11-03-2021 14:22:34.0813|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:22:34.0841|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:22:34.0857|INFO |Fetching user with Id 2
+11-03-2021 14:22:34.0888|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:23:07.0975|INFO |Retrieving all the courses
+11-03-2021 14:23:10.0367|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:23:10.0398|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:23:10.0405|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:23:10.0428|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:23:12.0775|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:23:12.0834|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:23:12.0878|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:23:12.0926|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:23:12.0926|INFO |Course with Id 20 has no ratings
+11-03-2021 14:23:53.0716|INFO |Retrieving all the courses
+11-03-2021 14:23:58.0368|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:23:58.0718|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:23:58.0751|INFO |Fetching user with Id 1
+11-03-2021 14:23:58.0766|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:26:53.0256|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:26:53.0256|INFO |Fetching all the users
+11-03-2021 14:26:53.0258|INFO |User already exists
+11-03-2021 14:26:53.0293|INFO |Retrieving all the courses
+11-03-2021 14:26:57.0758|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:26:58.0066|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:26:58.0066|INFO |Fetching user with Id 1
+11-03-2021 14:26:58.0066|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:27:49.0683|INFO |Added feedback with Id 11 for course with Id 17
+11-03-2021 14:27:49.0709|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:28:38.0077|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:28:38.0077|INFO |Fetching all the users
+11-03-2021 14:28:38.0079|INFO |User already exists
+11-03-2021 14:28:38.0116|INFO |Retrieving all the courses
+11-03-2021 14:28:39.0384|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:28:39.0384|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:28:39.0388|INFO |Fetching user with Id 2
+11-03-2021 14:28:39.0393|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:29:53.0296|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:29:53.0297|INFO |Fetching all the users
+11-03-2021 14:29:53.0298|INFO |User already exists
+11-03-2021 14:29:53.0342|INFO |Retrieving all the courses
+11-03-2021 14:29:54.0364|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:29:54.0366|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:29:54.0370|INFO |Fetching user with Id 2
+11-03-2021 14:29:54.0377|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:30:31.0377|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:30:31.0378|INFO |Fetching all the users
+11-03-2021 14:30:31.0379|INFO |User already exists
+11-03-2021 14:30:31.0424|INFO |Retrieving all the courses
+11-03-2021 14:30:33.0908|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:30:33.0912|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:30:33.0916|INFO |Fetching user with Id 1
+11-03-2021 14:30:33.0920|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:31:23.0813|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:31:23.0813|INFO |Fetching all the users
+11-03-2021 14:31:23.0814|INFO |User already exists
+11-03-2021 14:31:23.0852|INFO |Retrieving all the courses
+11-03-2021 14:31:25.0135|INFO |Retrieving all the courses
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:31:25.0500|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:31:25.0827|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:31:25.0827|INFO |Course with Id 20 has no ratings
+11-03-2021 14:31:38.0043|INFO |Retrieving all the courses
+11-03-2021 14:31:39.0678|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:31:39.0997|INFO |Fetching user with Id 1
+11-03-2021 14:31:39.0997|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:31:39.0997|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:31:48.0895|INFO |Retrieving all the courses
+11-03-2021 14:32:09.0886|INFO |Retrieving all the courses
+11-03-2021 14:32:11.0751|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Fetching user with Id 1
+11-03-2021 14:32:17.0279|INFO |Retrieving all the courses
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:32:17.0881|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:32:17.0882|INFO |Course with Id 20 has no ratings
+11-03-2021 14:32:17.0944|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:32:17.0944|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:32:17.0945|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:32:18.0848|INFO |Retrieving all the courses
+11-03-2021 14:50:39.0357|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:50:39.0357|INFO |Fetching all the users
+11-03-2021 14:50:39.0359|INFO |User already exists
+11-03-2021 14:50:39.0400|INFO |Retrieving all the courses
+11-03-2021 14:50:40.0916|INFO |Retrieving all the courses
+11-03-2021 14:50:40.0953|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:50:41.0255|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:50:41.0263|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:50:41.0263|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:50:41.0273|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:50:41.0646|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:50:41.0651|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:50:41.0652|INFO |Course with Id 20 has no ratings
+11-03-2021 14:50:41.0664|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:52:45.0978|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:52:45.0979|INFO |Fetching all the users
+11-03-2021 14:52:45.0981|INFO |User already exists
+11-03-2021 14:52:46.0018|INFO |Retrieving all the courses
+11-03-2021 14:52:47.0549|INFO |Retrieving all the courses
+11-03-2021 14:52:47.0601|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:52:47.0601|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:52:47.0912|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:52:47.0912|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:52:47.0930|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:52:48.0290|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:52:48.0290|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:52:48.0291|INFO |Course with Id 20 has no ratings
+11-03-2021 14:52:48.0297|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:53:58.0956|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:53:58.0956|INFO |Fetching all the users
+11-03-2021 14:53:58.0958|INFO |User already exists
+11-03-2021 14:53:58.0995|INFO |Retrieving all the courses
+11-03-2021 14:54:00.0976|INFO |Retrieving all the courses
+11-03-2021 14:54:01.0349|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:54:01.0351|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:54:01.0351|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:54:01.0355|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:54:01.0598|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:54:01.0920|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:54:01.0920|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:54:01.0920|INFO |Course with Id 20 has no ratings
+11-03-2021 14:54:01.0927|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:56:50.0870|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:56:50.0871|INFO |Fetching all the users
+11-03-2021 14:56:50.0873|INFO |User already exists
+11-03-2021 14:56:50.0909|INFO |Retrieving all the courses
+11-03-2021 14:56:52.0634|INFO |Retrieving all the courses
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:56:52.0988|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:56:53.0022|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:56:53.0022|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:56:53.0029|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:56:53.0316|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:56:53.0316|INFO |Course with Id 20 has no ratings
+11-03-2021 14:57:50.0101|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:57:50.0102|INFO |Fetching all the users
+11-03-2021 14:57:50.0104|INFO |User already exists
+11-03-2021 14:57:50.0141|INFO |Retrieving all the courses
+11-03-2021 14:57:51.0719|INFO |Retrieving all the courses
+11-03-2021 14:57:51.0757|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:57:52.0075|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:57:52.0075|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:57:52.0076|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:57:52.0078|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:57:52.0396|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:57:52.0396|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:57:52.0396|INFO |Course with Id 20 has no ratings
+11-03-2021 14:57:52.0403|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:57:58.0073|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:57:58.0073|INFO |Fetching all the users
+11-03-2021 14:57:58.0075|INFO |User already exists
+11-03-2021 14:57:58.0100|INFO |Retrieving all the courses
+11-03-2021 14:57:59.0822|INFO |Retrieving all the courses
+11-03-2021 14:57:59.0853|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:57:59.0853|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:00.0154|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:00.0154|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:00.0166|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:00.0170|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:00.0470|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:00.0470|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:00.0470|INFO |Course with Id 20 has no ratings
+11-03-2021 14:58:06.0584|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:58:06.0584|INFO |Fetching all the users
+11-03-2021 14:58:06.0586|INFO |User already exists
+11-03-2021 14:58:06.0615|INFO |Retrieving all the courses
+11-03-2021 14:58:08.0142|INFO |Retrieving all the courses
+11-03-2021 14:58:08.0166|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:58:08.0166|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:08.0481|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:08.0481|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:08.0483|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:08.0483|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:08.0801|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:08.0801|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:08.0802|INFO |Course with Id 20 has no ratings
+11-03-2021 14:58:29.0329|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:58:29.0329|INFO |Fetching all the users
+11-03-2021 14:58:29.0331|INFO |User already exists
+11-03-2021 14:58:29.0378|INFO |Retrieving all the courses
+11-03-2021 14:58:30.0465|INFO |Retrieving all the courses
+11-03-2021 14:58:30.0490|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:30.0490|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:58:30.0802|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:30.0802|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:30.0816|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:30.0816|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:31.0135|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:31.0135|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:31.0136|INFO |Course with Id 20 has no ratings
+11-03-2021 15:02:13.0392|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:02:13.0392|INFO |Fetching all the users
+11-03-2021 15:02:13.0394|INFO |User already exists
+11-03-2021 15:02:13.0429|INFO |Retrieving all the courses
+11-03-2021 15:21:36.0921|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:21:36.0922|INFO |Fetching all the users
+11-03-2021 15:21:36.0925|INFO |User already exists
+11-03-2021 15:21:36.0960|INFO |Retrieving all the courses
+11-03-2021 15:21:38.0319|INFO |Retrieving all the courses
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:21:38.0669|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:21:38.0677|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:21:38.0677|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:21:38.0681|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:21:38.0984|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:21:38.0984|INFO |Course with Id 20 has no ratings
+11-03-2021 15:22:40.0654|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:22:40.0655|INFO |Fetching all the users
+11-03-2021 15:22:40.0656|INFO |User already exists
+11-03-2021 15:22:40.0701|INFO |Retrieving all the courses
+11-03-2021 15:22:41.0746|INFO |Retrieving all the courses
+11-03-2021 15:22:41.0824|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:22:41.0824|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:22:42.0133|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:22:42.0133|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:22:42.0161|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:22:42.0169|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:22:42.0630|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:22:42.0630|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:22:42.0630|INFO |Course with Id 20 has no ratings
+11-03-2021 15:24:16.0875|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:24:16.0875|INFO |Fetching all the users
+11-03-2021 15:24:16.0877|INFO |User already exists
+11-03-2021 15:24:16.0912|INFO |Retrieving all the courses
+11-03-2021 15:24:18.0543|INFO |Retrieving all the courses
+11-03-2021 15:24:18.0590|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:24:18.0591|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:24:18.0907|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:24:18.0907|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:24:18.0915|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:24:18.0915|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:24:19.0226|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:24:19.0226|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:24:19.0226|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:11.0306|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:26:11.0307|INFO |Fetching all the users
+11-03-2021 15:26:11.0310|INFO |User already exists
+11-03-2021 15:26:11.0415|INFO |Retrieving all the courses
+11-03-2021 15:26:12.0290|INFO |Retrieving all the courses
+11-03-2021 15:26:12.0403|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:12.0408|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:12.0414|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:12.0732|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:12.0764|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:12.0824|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:12.0824|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:13.0086|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:13.0087|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:22.0437|INFO |Retrieving all the courses
+11-03-2021 15:26:23.0469|INFO |Retrieving all the courses
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:24.0064|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:24.0222|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:37.0200|INFO |Retrieving all the courses
+11-03-2021 15:26:38.0277|INFO |Retrieving all the courses
+11-03-2021 15:26:38.0320|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:38.0325|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:38.0327|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:38.0640|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:38.0683|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:38.0736|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:38.0736|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:38.0999|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:38.0999|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:44.0433|INFO |Retrieving all the courses
+11-03-2021 15:26:45.0623|INFO |Retrieving all the courses
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:46.0225|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:46.0225|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:49.0972|INFO |Retrieving all the courses
+11-03-2021 15:26:51.0644|INFO |Retrieving all the courses
+11-03-2021 15:26:51.0910|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:51.0978|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:52.0222|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:52.0300|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:52.0300|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:52.0301|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:57.0287|INFO |Retrieving all the courses
+11-03-2021 15:26:58.0873|INFO |Retrieving all the courses
+11-03-2021 15:26:59.0138|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:59.0203|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:59.0467|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:59.0524|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:59.0525|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:59.0525|INFO |Course with Id 20 has no ratings
+11-03-2021 15:27:02.0859|INFO |Retrieving all the courses
+11-03-2021 15:27:04.0272|INFO |Retrieving all the courses
+11-03-2021 15:27:04.0538|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:27:04.0595|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:27:04.0850|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:27:04.0850|INFO |Course with Id 20 has no ratings
+11-03-2021 15:27:04.0914|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:27:04.0914|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:27:48.0583|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:27:48.0584|INFO |Fetching all the users
+11-03-2021 15:27:48.0586|INFO |User already exists
+11-03-2021 15:27:48.0675|INFO |Retrieving all the courses
+11-03-2021 15:27:50.0167|INFO |Retrieving all the courses
+11-03-2021 15:27:50.0204|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:27:50.0204|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:27:50.0525|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:27:50.0525|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:27:50.0526|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:27:50.0536|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:27:50.0872|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:27:50.0873|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:27:50.0873|INFO |Course with Id 20 has no ratings
+11-03-2021 15:30:35.0484|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:30:35.0484|INFO |Fetching all the users
+11-03-2021 15:30:35.0485|INFO |User already exists
+11-03-2021 15:30:35.0529|INFO |Retrieving all the courses
+11-03-2021 15:31:14.0610|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:31:14.0610|INFO |Fetching all the users
+11-03-2021 15:31:14.0610|INFO |User already exists
+11-03-2021 15:31:14.0658|INFO |Retrieving all the courses
+11-03-2021 15:31:21.0043|INFO |Retrieving all the courses
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:31:21.0660|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:31:21.0660|INFO |Course with Id 20 has no ratings
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:35:17.0882|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:35:17.0883|INFO |Fetching all the users
+11-03-2021 15:35:17.0885|INFO |User already exists
+11-03-2021 15:35:17.0941|INFO |Retrieving all the courses
+11-03-2021 15:35:22.0040|INFO |Fetching all skills for course with Id 2
+11-03-2021 15:35:22.0354|INFO |Fetching user with Id 2
+11-03-2021 15:35:22.0354|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:35:22.0354|INFO |Retrieved all materials for course with Id 2
+11-03-2021 15:35:27.0403|INFO |Retrieving all the courses
+11-03-2021 15:35:29.0252|INFO |Retrieving all the courses
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:35:29.0851|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:35:29.0851|INFO |Course with Id 20 has no ratings
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:35:38.0805|INFO |Retrieving all the courses
+11-03-2021 15:36:51.0948|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:36:51.0948|INFO |Fetching all the users
+11-03-2021 15:36:51.0949|INFO |User already exists
+11-03-2021 15:36:51.0990|INFO |Retrieving all the courses
+11-03-2021 15:36:57.0763|INFO |Fetching all skills for course with Id 2
+11-03-2021 15:36:57.0763|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:36:58.0078|INFO |Fetching user with Id 2
+11-03-2021 15:36:58.0270|INFO |Retrieved all materials for course with Id 2
+11-03-2021 15:37:02.0909|INFO |Retrieving all the courses
+11-03-2021 15:37:04.0058|INFO |Retrieving all the courses
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:37:04.0679|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:37:04.0736|INFO |Course with Id 20 has no ratings
+11-03-2021 15:37:36.0696|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:37:36.0697|INFO |Fetching all the users
+11-03-2021 15:37:36.0698|INFO |User already exists
+11-03-2021 15:37:36.0740|INFO |Retrieving all the courses
+11-03-2021 15:37:43.0245|INFO |Retrieving all the courses
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:37:43.0594|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:37:43.0849|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:37:43.0912|INFO |Course with Id 20 has no ratings
+11-03-2021 15:37:50.0879|INFO |Retrieving all the courses
+11-03-2021 15:38:21.0639|INFO |Retrieving all the courses
+11-03-2021 15:40:57.0290|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:40:57.0290|INFO |Fetching all the users
+11-03-2021 15:40:57.0292|INFO |User already exists
+11-03-2021 15:40:57.0346|INFO |Retrieving all the courses
+11-03-2021 15:41:25.0902|INFO |Retrieving all the courses
+11-03-2021 15:41:25.0941|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:41:25.0943|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:41:25.0943|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:41:26.0274|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:41:26.0600|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:41:26.0600|INFO |Course with Id 20 has no ratings
+11-03-2021 15:41:49.0502|INFO |Retrieving all the courses

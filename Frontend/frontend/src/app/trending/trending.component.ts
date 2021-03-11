@@ -66,7 +66,6 @@ export class TrendingComponent implements OnInit {
       }
     });
 
-    window.resizeBy(50,50);
   }
 
   goToAddCourse(): void {

@@ -167,8 +167,7 @@ export class ViewCourseComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      if(!result.feedback || !result.rating) {
-        this.toastr.error('Could not add feedback', 'Error!');
+      if(result === undefined) {
         return;
       } 
       this.feedbackText = result.feedback;
