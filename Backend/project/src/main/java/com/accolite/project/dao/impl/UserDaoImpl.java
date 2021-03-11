@@ -1,9 +1,9 @@
 package com.accolite.project.dao.impl;
 
 import com.accolite.project.dao.IUserDao;
-import com.accolite.project.models.Course;
-import com.accolite.project.models.Skill;
 import com.accolite.project.models.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -18,10 +18,12 @@ public class UserDaoImpl implements IUserDao {
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
+    Logger logger = LoggerFactory.getLogger(UserDaoImpl.class);
+
     @Override
     public User add(User user) {
         final KeyHolder holder = new GeneratedKeyHolder();
-
+        logger.info("Trying to add user with email " + user.getEmail());
         String sql = "INSERT INTO USERS ( FIRST_NAME , LAST_NAME , EMAIL , DATE_OF_JOINING ) "
                 + " VALUES ( :FIRST_NAME , :LAST_NAME , :EMAIL , :DATE_OF_JOINING )";
 
@@ -32,14 +34,16 @@ public class UserDaoImpl implements IUserDao {
         srcMap.addValue("DATE_OF_JOINING", user.getDateOfJoining());
 
         List<User> allUsers = this.getAll();
-        for(User u: allUsers) {
-            if(u.getEmail().equals(user.getEmail())) {
+        for (User u : allUsers) {
+            if (u.getEmail().equals(user.getEmail())) {
+                logger.info("User already exists");
                 return u;
             }
         }
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         user.setId(holder.getKey().intValue());
+        logger.info("Added user with Id " + holder.getKey());
         return user;
     }
 
@@ -49,39 +53,25 @@ public class UserDaoImpl implements IUserDao {
         String sql = "SELECT 1 FROM USERS WHERE EMAIL = ':EMAIL'";
 
         srcMap.addValue("EMAIL", email);
-        List<User> old =   namedParameterJdbcTemplate.query(sql, srcMap, (rs, rowNum) -> new User(
+        List<User> old = namedParameterJdbcTemplate.query(sql, srcMap, (rs, rowNum) -> new User(
                 rs.getInt(1),
                 rs.getString(2),
                 rs.getString(3),
                 rs.getString(4),
                 rs.getString(5)
         ));
-
-//        User old = null;
-//        old = namedParameterJdbcTemplate.query(sql, srcMap (resultSet) -> new User(
-//                resultSet.getInt(1);
-//                )
-//        ){
-//            User oldUser = new User();
-//
-//            oldUser.setId(resultSet.getInt("id"));
-//            oldUser.setFirstName(resultSet.getString("FIRST_NAME"));
-//            oldUser.setLastName(resultSet.getString("LAST_NAME"));
-//            oldUser.setEmail(resultSet.getString("EMAIL"));
-//            oldUser.setDateOfJoining(resultSet.getString("DATE_OF_JOINING"));
-//
-//            return oldUser;
-//        });
+        logger.info("Fetched user with email " + email);
         return old.get(0);
     }
 
     @Override
     public User getById(int id) {
         String sql = "SELECT * FROM USERS WHERE USER_ID = :id";
-//        System.out.println(id);
+
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
         try {
+            logger.info("Fetching user with Id " + id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new User(
                     resultSet.getInt(1),
                     resultSet.getString(2),
@@ -89,13 +79,15 @@ public class UserDaoImpl implements IUserDao {
                     resultSet.getString(4),
                     resultSet.getString(5)
             ));
-        }catch(Exception e) {
+        } catch (Exception e) {
+            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
             return new User();
         }
     }
 
     public List<User> getAll() {
         String sql = "SELECT * FROM USERS";
+        logger.info("Fetching all the users");
         return namedParameterJdbcTemplate.query(sql, (resultSet, rowNum) -> new User(
                 resultSet.getInt(1),
                 resultSet.getString(2),

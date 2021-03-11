@@ -2,7 +2,8 @@ package com.accolite.project.dao.impl;
 
 import com.accolite.project.dao.IFeedbackDao;
 import com.accolite.project.models.Feedback;
-import com.accolite.project.models.Skill;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -16,6 +17,8 @@ import java.util.List;
 public class FeedbackDaoImpl implements IFeedbackDao {
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
+
+    Logger logger = LoggerFactory.getLogger(FeedbackDaoImpl.class);
 
     @Override
     public Feedback add(Feedback feedback) {
@@ -32,12 +35,14 @@ public class FeedbackDaoImpl implements IFeedbackDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         feedback.setId(holder.getKey().intValue());
+        logger.info("Added feedback with Id " + holder.getKey() + " for course with Id " + feedback.getCourseId());
         return feedback;
     }
 
     @Override
     public List<Feedback> getAll() {
         String sql = "SELECT * FROM FEEDBACKS";
+        logger.info("Retrieved all the feedbacks");
         return namedParameterJdbcTemplate.query(sql, (resultSet, rowNum) -> new Feedback(
                 resultSet.getInt(1),
                 resultSet.getInt(2),
@@ -53,7 +58,7 @@ public class FeedbackDaoImpl implements IFeedbackDao {
         String sql = "SELECT * FROM FEEDBACKS WHERE COURSE_ID = :COURSE_ID";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("COURSE_ID", courseId);
-
+        logger.info("Retrieving all the feedbacks for course with Id " + courseId);
         return namedParameterJdbcTemplate.query(sql, srcMap, (resultSet, rowNum) -> new Feedback(
                 resultSet.getInt(1),
                 resultSet.getInt(2),
@@ -71,8 +76,10 @@ public class FeedbackDaoImpl implements IFeedbackDao {
         srcMap.addValue("COURSE_ID", courseId);
         try {
             Float result = (namedParameterJdbcTemplate.queryForObject(sql, srcMap, Float.class));
+            logger.info("Retrieved average rating on course with Id " + courseId);
             return result.toString();
         } catch (Exception e) {
+            logger.info("Course with Id " + courseId + " has no ratings");
             return "0";
         }
 

@@ -73,6 +73,14 @@ export class ViewCourseComponent implements OnInit {
     this.router.navigate(['home']);
   }
 
+  goToAddCourse(): void {
+    this.router.navigate(['create']);
+  }
+
+  goToTrending(): void {
+    this.router.navigate(['trend']);
+  }
+
   goToEditCourse(): void {
     this.router.navigate(['edit']);
   }

@@ -3,6 +3,8 @@ package com.accolite.project.dao.impl;
 import com.accolite.project.dao.ICourseCUDao;
 import com.accolite.project.dao.ICourseRDDao;
 import com.accolite.project.models.Course;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -17,6 +19,8 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 
     @Autowired
     ICourseRDDao iCourseRDDao;
+
+    Logger logger = LoggerFactory.getLogger(CourseCUDaoImpl.class);
 
     @Override
     public Course add(Course course) {
@@ -33,6 +37,7 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         course.setId(holder.getKey().intValue());
+        logger.info("New course created with Id " + holder.getKey());
         return course;
     }
 
@@ -41,19 +46,20 @@ public class CourseCUDaoImpl implements ICourseCUDao {
 //        Course oldCourse = iCourseRDDao.getById(id);
 
 //        if (!areSame(oldCourse, newCourse)) {
-            String sql = "UPDATE COURSES SET COURSE_NAME  = :COURSE_NAME, COURSE_DESCRIPTION = :COURSE_DESCRIPTION," +
-                    " PREREQUISITE = :PREREQUISITE, LAST_MODIFIED_ON = :LAST_MODIFIED_ON WHERE COURSE_ID = :COURSE_ID";
-            MapSqlParameterSource srcMap = new MapSqlParameterSource();
-            srcMap.addValue("COURSE_NAME", newCourse.getCourseName());
-            srcMap.addValue("COURSE_DESCRIPTION", newCourse.getCourseDescription());
-            srcMap.addValue("PREREQUISITE", newCourse.getPreRequisite());
-            srcMap.addValue("LAST_MODIFIED_ON", newCourse.getLastModifiedOn());
-            srcMap.addValue("COURSE_ID", id);
+        String sql = "UPDATE COURSES SET COURSE_NAME  = :COURSE_NAME, COURSE_DESCRIPTION = :COURSE_DESCRIPTION," +
+                " PREREQUISITE = :PREREQUISITE, LAST_MODIFIED_ON = :LAST_MODIFIED_ON WHERE COURSE_ID = :COURSE_ID";
+        MapSqlParameterSource srcMap = new MapSqlParameterSource();
+        srcMap.addValue("COURSE_NAME", newCourse.getCourseName());
+        srcMap.addValue("COURSE_DESCRIPTION", newCourse.getCourseDescription());
+        srcMap.addValue("PREREQUISITE", newCourse.getPreRequisite());
+        srcMap.addValue("LAST_MODIFIED_ON", newCourse.getLastModifiedOn());
+        srcMap.addValue("COURSE_ID", id);
 
-            namedParameterJdbcTemplate.update(sql, srcMap);
+        namedParameterJdbcTemplate.update(sql, srcMap);
 
-            Course updatedCourse = iCourseRDDao.getById(id);
-            return updatedCourse;
+        Course updatedCourse = iCourseRDDao.getById(id);
+        logger.info("Updated course with Id " + id);
+        return updatedCourse;
 //        }
 //        return new Course();
     }

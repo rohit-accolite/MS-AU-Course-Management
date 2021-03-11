@@ -65,6 +65,14 @@ export class EditCourseComponent implements OnInit {
     this.router.navigate(['home']);
   }
 
+  goToAddCourse(): void {
+    this.router.navigate(['create']);
+  }
+
+  goToTrending(): void {
+    this.router.navigate(['trend']);
+  }
+
   signOut(): void {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then( () => {

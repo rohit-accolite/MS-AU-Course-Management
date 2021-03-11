@@ -3,14 +3,18 @@
       <button mat-icon-button (click)="goToHome();" class="home-icon">
         <mat-icon>home</mat-icon>
       </button>
-        <span>Course Management System</span>
+      <span>Course Management System</span>
+      <span class="spacer"></span>
+
         <button mat-icon-button (click)="goToAddCourse();" class="space">
           <mat-icon>add </mat-icon>
         </button>
 
-        <span class="spacer"></span>
+        <button mat-icon-button class="space">
+          <mat-icon>trending_up</mat-icon>
+        </button>
 
-        <button mat-icon-button (click)="signOut();" class="logout-icon">
+        <button mat-icon-button (click)="signOut();" class="space">
           <mat-icon>logout</mat-icon>
         </button>
     </mat-toolbar>
@@ -19,7 +23,7 @@
 <div class = "graph">
     <canvas id="feedbackChart"></canvas>
 </div>
-
+<br> <br>
 <div class = "graph">
     <canvas id="ratingChart"></canvas>
 </div>

@@ -1,8 +1,9 @@
 package com.accolite.project.dao.impl;
 
 import com.accolite.project.dao.ISkillDao;
-import com.accolite.project.models.Course;
 import com.accolite.project.models.Skill;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -17,6 +18,8 @@ public class SkillDaoImpl implements ISkillDao {
     @Autowired
     NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
+    Logger logger = LoggerFactory.getLogger(SkillDaoImpl.class);
+
     @Override
     public Skill add(Skill skill) {
         final KeyHolder holder = new GeneratedKeyHolder();
@@ -29,12 +32,14 @@ public class SkillDaoImpl implements ISkillDao {
 
         namedParameterJdbcTemplate.update(sql, srcMap, holder, new String[]{"ID"});
         skill.setId(holder.getKey().intValue());
+        logger.info("Skill added with  Id " + holder.getKey());
         return skill;
     }
 
     @Override
     public List<Skill> getAll() {
         String sql = "SELECT * FROM SKILLS";
+        logger.info("Retrieving all skills");
         return namedParameterJdbcTemplate.query(sql, (resultSet, rowNum) -> new Skill(
                 resultSet.getInt(1),
                 resultSet.getInt(2),
@@ -48,12 +53,14 @@ public class SkillDaoImpl implements ISkillDao {
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
         try {
+            logger.info("Fetching skill with Id " + id);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Skill(
                     resultSet.getInt(1),
                     resultSet.getInt(2),
                     resultSet.getString(3)
             ));
-        }catch(Exception e) {
+        } catch (Exception e) {
+            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Skill();
         }
     }
@@ -61,16 +68,18 @@ public class SkillDaoImpl implements ISkillDao {
     @Override
     public Skill getByCourseId(int courseId) {
         String sql = "SELECT * FROM SKILLS WHERE COURSE_ID = :courseId";
-//        System.out.println(courseId);
+
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("courseId", courseId);
         try {
+            logger.info("Fetching all skills for course with Id " + courseId);
             return namedParameterJdbcTemplate.queryForObject(sql, srcMap, (resultSet, rowNum) -> new Skill(
                     resultSet.getInt(1),
                     resultSet.getInt(2),
                     resultSet.getString(3)
             ));
-        }catch(Exception e) {
+        } catch (Exception e) {
+            logger.error(e.getCause() + " in method " + Thread.currentThread().getStackTrace()[1].getMethodName());
             return new Skill();
         }
     }
@@ -85,7 +94,7 @@ public class SkillDaoImpl implements ISkillDao {
         srcMap.addValue("SKILL_ID", id);
 
         namedParameterJdbcTemplate.update(sql, srcMap);
-
+        logger.info("Updated skill with Id " + id);
         Skill updatedSkill = this.getById(id);
         return updatedSkill;
     }
@@ -95,6 +104,7 @@ public class SkillDaoImpl implements ISkillDao {
         String sql = "DELETE FROM SKILLS WHERE SKILL_ID = :id";
         MapSqlParameterSource srcMap = new MapSqlParameterSource();
         srcMap.addValue("id", id);
-        return namedParameterJdbcTemplate.update(sql, srcMap) == 1? true: false;
+        logger.info("Deleted skill with Id " + id);
+        return namedParameterJdbcTemplate.update(sql, srcMap) == 1 ? true : false;
     }
 }

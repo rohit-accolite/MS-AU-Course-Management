@@ -1,0 +1,5 @@
+11-03-2021 13:50:00.0033|INFO |Starting ProjectApplication using Java 1.8.0_201 on Rohit-PC with PID 17412 (C:\Users\Rohit\Desktop\Course Management\Backend\project\target\classes started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 13:50:00.0038|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 13:50:01.0572|INFO |Started ProjectApplication in 1.933 seconds (JVM running for 3.026)
+11-03-2021 13:50:16.0257|INFO |Retrieving all the courses
+11-03-2021 14:07:22.0687|INFO |Fetching user with Id 5

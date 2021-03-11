@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Trending } from '../models/trending';
 import { Chart } from 'chart.js';
 import { TrendingService } from './trending.service';
 
@@ -24,58 +23,31 @@ export class TrendingComponent implements OnInit {
   
 
   ngOnInit(): void {
-    // this.chart = new Chart('barchart',{
-    //   type: 'bar',
-    //   data: {
-    //     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-    //     datasets: [{
-    //       label: "Feedback Trends",
-    //       data: [12, 19, 3, 5, 2, 3],
-    //       backgroundColor: [
-    //         'rgba(255, 99, 132, 0.2)',
-    //         'rgba(54, 162, 235, 0.2)',
-    //         'rgba(255, 206, 86, 0.2)',
-    //         'rgba(75, 192, 192, 0.2)',
-    //         'rgba(153, 102, 255, 0.2)',
-    //         'rgba(255, 159, 64, 0.2)'
-    //     ]
-    //     }]
-    //   }
-    // });
 
-    this.trendingService.getAllCourses().subscribe((resp: any) => {
-      resp.forEach((course: any) => {
-        this.courseNames.push(course.courseName);
-        this.color1.push('rgba(255, 206, 86, 0.5)');
-        this.color2.push('rgba(75, 192, 192, 0.5)');
-
-        // console.log('name'+course.courseName);
-        // console.log('id'+course.id)
-
-        this.trendingService.getFeedBacksByCourseId(course.id).subscribe((resp: any) => {
-          this.feedbackCount.push(resp.length);
-          // console.log('length'+resp.length)
+    this.trendingService.getAllCourses().subscribe((respC: any) => {
+      respC.forEach((course: any) => {
+        this.trendingService.getFeedBacksByCourseId(course.id).subscribe((respF: any) => {
+          this.trendingService.getAvgRatingByCourseId(course.id).subscribe((respR: number) => {
+            this.courseNames.push(course.courseName);
+            this.color1.push('rgba(255, 206, 86, 0.5)');
+            this.color2.push('rgba(75, 192, 192, 0.5)');
+            this.avgRating.push(Math.round(respR));
+            this.feedbackCount.push(respF.length);
+          });
         });
-
-        this.trendingService.getAvgRatingByCourseId(course.id).subscribe((resp: number) => {
-          this.avgRating.push(Math.round(resp));
-          // console.log('avg'+resp);
-          // console.log('round'+Math.round(resp));
-        });
-        
       });
     });
 
-    console.log(this.courseNames);
-    console.log(this.feedbackCount);
-    console.log(this.avgRating);
+    // console.log(this.courseNames);
+    // console.log(this.feedbackCount);
+    // console.log(this.avgRating);
 
     this.feedbackChart = new Chart('feedbackChart',{
       type: 'bar',
       data: {
         labels: this.courseNames,
         datasets: [{
-          label: "Feedback Trends",
+          label: "Feedback Count",
           data: this.feedbackCount,
           backgroundColor: this.color1
         }]
@@ -87,7 +59,7 @@ export class TrendingComponent implements OnInit {
       data: {
         labels: this.courseNames,
         datasets: [{
-          label: "Rating Trends",
+          label: "Average Rating",
           data: this.avgRating,
           backgroundColor: this.color2
         }]
@@ -112,7 +84,5 @@ export class TrendingComponent implements OnInit {
     });
     this.router.navigate(['']);
   }
-
-
 
 }
