@@ -1,0 +1,914 @@
+11-03-2021 13:50:00.0033|INFO |Starting ProjectApplication using Java 1.8.0_201 on Rohit-PC with PID 17412 (C:\Users\Rohit\Desktop\Course Management\Backend\project\target\classes started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 13:50:00.0038|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 13:50:01.0572|INFO |Started ProjectApplication in 1.933 seconds (JVM running for 3.026)
+11-03-2021 13:50:16.0257|INFO |Retrieving all the courses
+11-03-2021 14:07:22.0687|INFO |Fetching user with Id 5
+11-03-2021 14:20:31.0709|INFO |Retrieving all the courses
+11-03-2021 14:20:31.0967|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:20:32.0044|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:20:32.0052|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:20:32.0290|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:20:32.0366|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:20:32.0366|INFO |Course with Id 20 has no ratings
+11-03-2021 14:20:32.0375|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:21:27.0591|INFO |Retrieving all the courses
+11-03-2021 14:21:50.0423|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:21:50.0478|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:21:50.0487|INFO |Fetching user with Id 1
+11-03-2021 14:21:50.0513|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:22:18.0013|INFO |Retrieving all the courses
+11-03-2021 14:22:34.0813|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:22:34.0841|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:22:34.0857|INFO |Fetching user with Id 2
+11-03-2021 14:22:34.0888|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:23:07.0975|INFO |Retrieving all the courses
+11-03-2021 14:23:10.0367|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:23:10.0398|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:23:10.0405|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:23:10.0428|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:23:12.0775|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:23:12.0834|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:23:12.0878|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:23:12.0926|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:23:12.0926|INFO |Course with Id 20 has no ratings
+11-03-2021 14:23:53.0716|INFO |Retrieving all the courses
+11-03-2021 14:23:58.0368|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:23:58.0718|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:23:58.0751|INFO |Fetching user with Id 1
+11-03-2021 14:23:58.0766|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:26:53.0256|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:26:53.0256|INFO |Fetching all the users
+11-03-2021 14:26:53.0258|INFO |User already exists
+11-03-2021 14:26:53.0293|INFO |Retrieving all the courses
+11-03-2021 14:26:57.0758|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:26:58.0066|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:26:58.0066|INFO |Fetching user with Id 1
+11-03-2021 14:26:58.0066|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:27:49.0683|INFO |Added feedback with Id 11 for course with Id 17
+11-03-2021 14:27:49.0709|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:28:38.0077|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:28:38.0077|INFO |Fetching all the users
+11-03-2021 14:28:38.0079|INFO |User already exists
+11-03-2021 14:28:38.0116|INFO |Retrieving all the courses
+11-03-2021 14:28:39.0384|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:28:39.0384|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:28:39.0388|INFO |Fetching user with Id 2
+11-03-2021 14:28:39.0393|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:29:53.0296|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:29:53.0297|INFO |Fetching all the users
+11-03-2021 14:29:53.0298|INFO |User already exists
+11-03-2021 14:29:53.0342|INFO |Retrieving all the courses
+11-03-2021 14:29:54.0364|INFO |Fetching all skills for course with Id 16
+11-03-2021 14:29:54.0366|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:29:54.0370|INFO |Fetching user with Id 2
+11-03-2021 14:29:54.0377|INFO |Retrieved all materials for course with Id 16
+11-03-2021 14:30:31.0377|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:30:31.0378|INFO |Fetching all the users
+11-03-2021 14:30:31.0379|INFO |User already exists
+11-03-2021 14:30:31.0424|INFO |Retrieving all the courses
+11-03-2021 14:30:33.0908|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:30:33.0912|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:30:33.0916|INFO |Fetching user with Id 1
+11-03-2021 14:30:33.0920|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:31:23.0813|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:31:23.0813|INFO |Fetching all the users
+11-03-2021 14:31:23.0814|INFO |User already exists
+11-03-2021 14:31:23.0852|INFO |Retrieving all the courses
+11-03-2021 14:31:25.0135|INFO |Retrieving all the courses
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:31:25.0185|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:31:25.0500|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:31:25.0514|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:31:25.0827|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:31:25.0827|INFO |Course with Id 20 has no ratings
+11-03-2021 14:31:38.0043|INFO |Retrieving all the courses
+11-03-2021 14:31:39.0678|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:31:39.0997|INFO |Fetching user with Id 1
+11-03-2021 14:31:39.0997|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:31:39.0997|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:31:48.0895|INFO |Retrieving all the courses
+11-03-2021 14:32:09.0886|INFO |Retrieving all the courses
+11-03-2021 14:32:11.0751|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Fetching all skills for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Retrieved all materials for course with Id 17
+11-03-2021 14:32:11.0751|INFO |Fetching user with Id 1
+11-03-2021 14:32:17.0279|INFO |Retrieving all the courses
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:32:17.0611|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:32:17.0881|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:32:17.0882|INFO |Course with Id 20 has no ratings
+11-03-2021 14:32:17.0944|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:32:17.0944|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:32:17.0945|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:32:18.0848|INFO |Retrieving all the courses
+11-03-2021 14:50:39.0357|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:50:39.0357|INFO |Fetching all the users
+11-03-2021 14:50:39.0359|INFO |User already exists
+11-03-2021 14:50:39.0400|INFO |Retrieving all the courses
+11-03-2021 14:50:40.0916|INFO |Retrieving all the courses
+11-03-2021 14:50:40.0953|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:50:41.0255|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:50:41.0263|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:50:41.0263|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:50:41.0273|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:50:41.0646|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:50:41.0651|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:50:41.0652|INFO |Course with Id 20 has no ratings
+11-03-2021 14:50:41.0664|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:52:45.0978|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:52:45.0979|INFO |Fetching all the users
+11-03-2021 14:52:45.0981|INFO |User already exists
+11-03-2021 14:52:46.0018|INFO |Retrieving all the courses
+11-03-2021 14:52:47.0549|INFO |Retrieving all the courses
+11-03-2021 14:52:47.0601|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:52:47.0601|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:52:47.0912|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:52:47.0912|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:52:47.0930|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:52:48.0290|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:52:48.0290|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:52:48.0291|INFO |Course with Id 20 has no ratings
+11-03-2021 14:52:48.0297|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:53:58.0956|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:53:58.0956|INFO |Fetching all the users
+11-03-2021 14:53:58.0958|INFO |User already exists
+11-03-2021 14:53:58.0995|INFO |Retrieving all the courses
+11-03-2021 14:54:00.0976|INFO |Retrieving all the courses
+11-03-2021 14:54:01.0349|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:54:01.0351|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:54:01.0351|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:54:01.0355|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:54:01.0598|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:54:01.0920|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:54:01.0920|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:54:01.0920|INFO |Course with Id 20 has no ratings
+11-03-2021 14:54:01.0927|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:56:50.0870|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:56:50.0871|INFO |Fetching all the users
+11-03-2021 14:56:50.0873|INFO |User already exists
+11-03-2021 14:56:50.0909|INFO |Retrieving all the courses
+11-03-2021 14:56:52.0634|INFO |Retrieving all the courses
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:56:52.0680|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:56:52.0988|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:56:53.0022|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:56:53.0022|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:56:53.0029|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:56:53.0316|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:56:53.0316|INFO |Course with Id 20 has no ratings
+11-03-2021 14:57:50.0101|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:57:50.0102|INFO |Fetching all the users
+11-03-2021 14:57:50.0104|INFO |User already exists
+11-03-2021 14:57:50.0141|INFO |Retrieving all the courses
+11-03-2021 14:57:51.0719|INFO |Retrieving all the courses
+11-03-2021 14:57:51.0757|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:57:52.0075|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:57:52.0075|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:57:52.0076|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:57:52.0078|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:57:52.0396|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:57:52.0396|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:57:52.0396|INFO |Course with Id 20 has no ratings
+11-03-2021 14:57:52.0403|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:57:58.0073|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:57:58.0073|INFO |Fetching all the users
+11-03-2021 14:57:58.0075|INFO |User already exists
+11-03-2021 14:57:58.0100|INFO |Retrieving all the courses
+11-03-2021 14:57:59.0822|INFO |Retrieving all the courses
+11-03-2021 14:57:59.0853|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:57:59.0853|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:00.0154|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:00.0154|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:00.0166|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:00.0170|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:00.0470|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:00.0470|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:00.0470|INFO |Course with Id 20 has no ratings
+11-03-2021 14:58:06.0584|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:58:06.0584|INFO |Fetching all the users
+11-03-2021 14:58:06.0586|INFO |User already exists
+11-03-2021 14:58:06.0615|INFO |Retrieving all the courses
+11-03-2021 14:58:08.0142|INFO |Retrieving all the courses
+11-03-2021 14:58:08.0166|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:58:08.0166|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:08.0481|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:08.0481|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:08.0483|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:08.0483|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:08.0801|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:08.0801|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:08.0802|INFO |Course with Id 20 has no ratings
+11-03-2021 14:58:29.0329|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 14:58:29.0329|INFO |Fetching all the users
+11-03-2021 14:58:29.0331|INFO |User already exists
+11-03-2021 14:58:29.0378|INFO |Retrieving all the courses
+11-03-2021 14:58:30.0465|INFO |Retrieving all the courses
+11-03-2021 14:58:30.0490|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 14:58:30.0490|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 14:58:30.0802|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 14:58:30.0802|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 14:58:30.0816|INFO |Retrieved average rating on course with Id 16
+11-03-2021 14:58:30.0816|INFO |Retrieved average rating on course with Id 2
+11-03-2021 14:58:31.0135|INFO |Retrieved average rating on course with Id 17
+11-03-2021 14:58:31.0135|INFO |Retrieved average rating on course with Id 20
+11-03-2021 14:58:31.0136|INFO |Course with Id 20 has no ratings
+11-03-2021 15:02:13.0392|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:02:13.0392|INFO |Fetching all the users
+11-03-2021 15:02:13.0394|INFO |User already exists
+11-03-2021 15:02:13.0429|INFO |Retrieving all the courses
+11-03-2021 15:21:36.0921|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:21:36.0922|INFO |Fetching all the users
+11-03-2021 15:21:36.0925|INFO |User already exists
+11-03-2021 15:21:36.0960|INFO |Retrieving all the courses
+11-03-2021 15:21:38.0319|INFO |Retrieving all the courses
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:21:38.0357|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:21:38.0669|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:21:38.0677|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:21:38.0677|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:21:38.0681|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:21:38.0984|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:21:38.0984|INFO |Course with Id 20 has no ratings
+11-03-2021 15:22:40.0654|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:22:40.0655|INFO |Fetching all the users
+11-03-2021 15:22:40.0656|INFO |User already exists
+11-03-2021 15:22:40.0701|INFO |Retrieving all the courses
+11-03-2021 15:22:41.0746|INFO |Retrieving all the courses
+11-03-2021 15:22:41.0824|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:22:41.0824|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:22:42.0133|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:22:42.0133|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:22:42.0161|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:22:42.0169|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:22:42.0630|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:22:42.0630|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:22:42.0630|INFO |Course with Id 20 has no ratings
+11-03-2021 15:24:16.0875|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:24:16.0875|INFO |Fetching all the users
+11-03-2021 15:24:16.0877|INFO |User already exists
+11-03-2021 15:24:16.0912|INFO |Retrieving all the courses
+11-03-2021 15:24:18.0543|INFO |Retrieving all the courses
+11-03-2021 15:24:18.0590|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:24:18.0591|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:24:18.0907|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:24:18.0907|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:24:18.0915|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:24:18.0915|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:24:19.0226|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:24:19.0226|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:24:19.0226|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:11.0306|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:26:11.0307|INFO |Fetching all the users
+11-03-2021 15:26:11.0310|INFO |User already exists
+11-03-2021 15:26:11.0415|INFO |Retrieving all the courses
+11-03-2021 15:26:12.0290|INFO |Retrieving all the courses
+11-03-2021 15:26:12.0403|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:12.0408|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:12.0414|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:12.0732|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:12.0764|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:12.0824|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:12.0824|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:13.0086|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:13.0087|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:22.0437|INFO |Retrieving all the courses
+11-03-2021 15:26:23.0469|INFO |Retrieving all the courses
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:23.0801|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:24.0064|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:24.0222|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:24.0222|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:37.0200|INFO |Retrieving all the courses
+11-03-2021 15:26:38.0277|INFO |Retrieving all the courses
+11-03-2021 15:26:38.0320|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:38.0325|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:38.0327|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:38.0640|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:38.0683|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:38.0736|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:38.0736|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:38.0999|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:38.0999|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:44.0433|INFO |Retrieving all the courses
+11-03-2021 15:26:45.0623|INFO |Retrieving all the courses
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:45.0963|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:46.0225|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:46.0225|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:46.0291|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:49.0972|INFO |Retrieving all the courses
+11-03-2021 15:26:51.0644|INFO |Retrieving all the courses
+11-03-2021 15:26:51.0910|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:51.0977|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:51.0978|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:52.0222|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:52.0300|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:52.0300|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:52.0301|INFO |Course with Id 20 has no ratings
+11-03-2021 15:26:57.0287|INFO |Retrieving all the courses
+11-03-2021 15:26:58.0873|INFO |Retrieving all the courses
+11-03-2021 15:26:59.0138|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:26:59.0202|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:26:59.0203|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:26:59.0467|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:26:59.0524|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:26:59.0525|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:26:59.0525|INFO |Course with Id 20 has no ratings
+11-03-2021 15:27:02.0859|INFO |Retrieving all the courses
+11-03-2021 15:27:04.0272|INFO |Retrieving all the courses
+11-03-2021 15:27:04.0538|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:27:04.0585|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:27:04.0595|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:27:04.0850|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:27:04.0850|INFO |Course with Id 20 has no ratings
+11-03-2021 15:27:04.0914|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:27:04.0914|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:27:48.0583|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:27:48.0584|INFO |Fetching all the users
+11-03-2021 15:27:48.0586|INFO |User already exists
+11-03-2021 15:27:48.0675|INFO |Retrieving all the courses
+11-03-2021 15:27:50.0167|INFO |Retrieving all the courses
+11-03-2021 15:27:50.0204|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:27:50.0204|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:27:50.0525|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:27:50.0525|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:27:50.0526|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:27:50.0536|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:27:50.0872|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:27:50.0873|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:27:50.0873|INFO |Course with Id 20 has no ratings
+11-03-2021 15:30:35.0484|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:30:35.0484|INFO |Fetching all the users
+11-03-2021 15:30:35.0485|INFO |User already exists
+11-03-2021 15:30:35.0529|INFO |Retrieving all the courses
+11-03-2021 15:31:14.0610|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:31:14.0610|INFO |Fetching all the users
+11-03-2021 15:31:14.0610|INFO |User already exists
+11-03-2021 15:31:14.0658|INFO |Retrieving all the courses
+11-03-2021 15:31:21.0043|INFO |Retrieving all the courses
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:31:21.0396|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:31:21.0660|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:31:21.0660|INFO |Course with Id 20 has no ratings
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:31:21.0739|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:35:17.0882|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:35:17.0883|INFO |Fetching all the users
+11-03-2021 15:35:17.0885|INFO |User already exists
+11-03-2021 15:35:17.0941|INFO |Retrieving all the courses
+11-03-2021 15:35:22.0040|INFO |Fetching all skills for course with Id 2
+11-03-2021 15:35:22.0354|INFO |Fetching user with Id 2
+11-03-2021 15:35:22.0354|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:35:22.0354|INFO |Retrieved all materials for course with Id 2
+11-03-2021 15:35:27.0403|INFO |Retrieving all the courses
+11-03-2021 15:35:29.0252|INFO |Retrieving all the courses
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:35:29.0602|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:35:29.0851|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:35:29.0851|INFO |Course with Id 20 has no ratings
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:35:29.0943|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:35:38.0805|INFO |Retrieving all the courses
+11-03-2021 15:36:51.0948|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:36:51.0948|INFO |Fetching all the users
+11-03-2021 15:36:51.0949|INFO |User already exists
+11-03-2021 15:36:51.0990|INFO |Retrieving all the courses
+11-03-2021 15:36:57.0763|INFO |Fetching all skills for course with Id 2
+11-03-2021 15:36:57.0763|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:36:58.0078|INFO |Fetching user with Id 2
+11-03-2021 15:36:58.0270|INFO |Retrieved all materials for course with Id 2
+11-03-2021 15:37:02.0909|INFO |Retrieving all the courses
+11-03-2021 15:37:04.0058|INFO |Retrieving all the courses
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:37:04.0406|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:37:04.0679|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:37:04.0735|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:37:04.0736|INFO |Course with Id 20 has no ratings
+11-03-2021 15:37:36.0696|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:37:36.0697|INFO |Fetching all the users
+11-03-2021 15:37:36.0698|INFO |User already exists
+11-03-2021 15:37:36.0740|INFO |Retrieving all the courses
+11-03-2021 15:37:43.0245|INFO |Retrieving all the courses
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:37:43.0581|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:37:43.0594|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:37:43.0849|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:37:43.0912|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:37:43.0912|INFO |Course with Id 20 has no ratings
+11-03-2021 15:37:50.0879|INFO |Retrieving all the courses
+11-03-2021 15:38:21.0639|INFO |Retrieving all the courses
+11-03-2021 15:40:57.0290|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 15:40:57.0290|INFO |Fetching all the users
+11-03-2021 15:40:57.0292|INFO |User already exists
+11-03-2021 15:40:57.0346|INFO |Retrieving all the courses
+11-03-2021 15:41:25.0902|INFO |Retrieving all the courses
+11-03-2021 15:41:25.0941|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 15:41:25.0943|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 15:41:25.0943|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 15:41:26.0274|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 2
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 16
+11-03-2021 15:41:26.0275|INFO |Retrieved average rating on course with Id 17
+11-03-2021 15:41:26.0600|INFO |Retrieved average rating on course with Id 20
+11-03-2021 15:41:26.0600|INFO |Course with Id 20 has no ratings
+11-03-2021 15:41:49.0502|INFO |Retrieving all the courses
+11-03-2021 17:15:07.0461|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 15736 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 17:15:07.0467|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 17:15:10.0984|INFO |Started ProjectApplicationTests in 4.097 seconds (JVM running for 7.47)
+11-03-2021 18:51:55.0880|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 2404 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 18:51:55.0884|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 18:51:59.0734|INFO |Started ProjectApplicationTests in 4.294 seconds (JVM running for 7.277)
+11-03-2021 18:55:55.0909|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 16572 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 18:55:55.0915|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 18:55:59.0706|INFO |Started ProjectApplicationTests in 4.409 seconds (JVM running for 7.372)
+11-03-2021 19:06:49.0697|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 12168 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:06:49.0703|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:06:54.0567|INFO |Started ProjectApplicationTests in 5.365 seconds (JVM running for 8.094)
+11-03-2021 19:09:53.0945|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 12420 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:09:53.0949|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:09:59.0079|INFO |Started ProjectApplicationTests in 5.574 seconds (JVM running for 8.3)
+11-03-2021 19:10:00.0070|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 12420 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:10:00.0075|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:10:01.0780|INFO |Started CourseCUControllerTest in 1.812 seconds (JVM running for 11.0)
+11-03-2021 19:16:47.0683|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 9944 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:16:47.0686|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:16:49.0590|INFO |Started CourseCUControllerTest in 2.458 seconds (JVM running for 4.031)
+11-03-2021 19:17:26.0263|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 9796 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:17:26.0266|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:17:28.0080|INFO |Started CourseCUControllerTest in 2.431 seconds (JVM running for 4.202)
+11-03-2021 19:24:14.0508|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 15816 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:24:14.0512|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:24:19.0227|INFO |Started ProjectApplicationTests in 5.16 seconds (JVM running for 7.782)
+11-03-2021 19:24:19.0842|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15816 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:24:19.0845|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:24:21.0880|INFO |Started CourseCUControllerTest in 2.097 seconds (JVM running for 10.436)
+11-03-2021 19:53:51.0278|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18344 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:53:51.0285|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:53:56.0477|INFO |Started CourseRDControllerTest in 5.847 seconds (JVM running for 8.575)
+11-03-2021 19:53:57.0045|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 18344 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:53:57.0047|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:53:59.0597|INFO |Started ProjectApplicationTests in 2.593 seconds (JVM running for 11.695)
+11-03-2021 19:53:59.0658|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18344 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:53:59.0659|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:54:00.0489|INFO |Started CourseCUControllerTest in 0.864 seconds (JVM running for 12.587)
+11-03-2021 19:54:45.0694|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11396 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:54:45.0698|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:54:47.0470|INFO |Started CourseRDControllerTest in 2.31 seconds (JVM running for 3.794)
+11-03-2021 19:55:55.0621|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18896 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:55:55.0623|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:55:57.0510|INFO |Started CourseRDControllerTest in 2.49 seconds (JVM running for 3.978)
+11-03-2021 19:56:17.0943|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 16972 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:56:17.0948|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:56:22.0259|INFO |Started CourseRDControllerTest in 4.947 seconds (JVM running for 7.465)
+11-03-2021 19:56:22.0757|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 16972 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:56:22.0761|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:56:25.0333|INFO |Started ProjectApplicationTests in 2.62 seconds (JVM running for 10.539)
+11-03-2021 19:56:25.0421|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 16972 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 19:56:25.0428|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 19:56:26.0084|INFO |Started CourseCUControllerTest in 0.709 seconds (JVM running for 11.29)
+11-03-2021 20:34:43.0794|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 12176 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:34:43.0797|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:34:45.0803|INFO |Started FeedbackControllerTest in 2.654 seconds (JVM running for 4.392)
+11-03-2021 20:38:39.0335|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17948 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:38:39.0345|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:38:41.0307|INFO |Started FeedbackControllerTest in 2.559 seconds (JVM running for 4.07)
+11-03-2021 20:44:20.0365|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 19792 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:44:20.0369|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:44:22.0281|INFO |Started FeedbackControllerTest in 2.499 seconds (JVM running for 3.991)
+11-03-2021 20:45:08.0659|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18680 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:45:08.0661|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:45:10.0449|INFO |Started FeedbackControllerTest in 2.328 seconds (JVM running for 3.779)
+11-03-2021 20:47:01.0616|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 19188 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:47:01.0619|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:47:03.0466|INFO |Started CourseRDControllerTest in 2.409 seconds (JVM running for 3.921)
+11-03-2021 20:48:40.0113|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 3484 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:48:40.0116|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:48:41.0923|INFO |Started FeedbackControllerTest in 2.312 seconds (JVM running for 3.828)
+11-03-2021 20:54:28.0923|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 13644 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:54:28.0927|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:54:31.0041|INFO |Started FeedbackControllerTest in 2.731 seconds (JVM running for 4.315)
+11-03-2021 20:54:52.0951|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11012 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:54:52.0957|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:54:57.0788|INFO |Started CourseRDControllerTest in 5.674 seconds (JVM running for 8.555)
+11-03-2021 20:54:58.0706|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 11012 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:54:58.0711|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:55:00.0953|INFO |Started ProjectApplicationTests in 2.339 seconds (JVM running for 11.72)
+11-03-2021 20:55:01.0097|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11012 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:55:01.0102|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:55:02.0430|INFO |Started CourseCUControllerTest in 1.417 seconds (JVM running for 13.196)
+11-03-2021 20:55:02.0647|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11012 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 20:55:02.0649|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 20:55:03.0391|INFO |Started FeedbackControllerTest in 0.774 seconds (JVM running for 14.157)
+11-03-2021 21:04:37.0376|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 6004 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:04:37.0381|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:04:39.0262|INFO |Started SkillControllerTest in 2.446 seconds (JVM running for 3.999)
+11-03-2021 21:07:27.0159|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17360 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:07:27.0161|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:07:28.0951|INFO |Started SkillControllerTest in 2.341 seconds (JVM running for 3.934)
+11-03-2021 21:10:02.0046|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18472 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:10:02.0049|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:10:03.0923|INFO |Started SkillControllerTest in 2.396 seconds (JVM running for 3.832)
+11-03-2021 21:12:03.0334|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 7684 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:12:03.0340|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:12:05.0167|INFO |Started SkillControllerTest in 2.367 seconds (JVM running for 3.903)
+11-03-2021 21:13:49.0346|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 748 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:13:49.0350|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:13:52.0016|INFO |Started SkillControllerTest in 3.223 seconds (JVM running for 4.85)
+11-03-2021 21:14:50.0755|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 14848 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:14:50.0762|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:14:53.0662|INFO |Started SkillControllerTest in 3.934 seconds (JVM running for 5.458)
+11-03-2021 21:15:07.0876|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17908 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:15:07.0880|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:15:10.0866|INFO |Started CourseRDControllerTest in 3.616 seconds (JVM running for 6.527)
+11-03-2021 21:15:11.0659|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17908 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:15:11.0667|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:15:13.0206|INFO |Started SkillControllerTest in 1.664 seconds (JVM running for 8.866)
+11-03-2021 21:15:13.0749|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 17908 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:15:13.0754|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:15:16.0060|INFO |Started ProjectApplicationTests in 2.418 seconds (JVM running for 11.72)
+11-03-2021 21:15:16.0149|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17908 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:15:16.0153|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:15:17.0107|INFO |Started CourseCUControllerTest in 1.007 seconds (JVM running for 12.767)
+11-03-2021 21:15:17.0201|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 17908 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:15:17.0203|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:15:17.0975|INFO |Started FeedbackControllerTest in 0.809 seconds (JVM running for 13.636)
+11-03-2021 21:26:57.0130|INFO |Starting UserControllerTest using Java 1.8.0_201 on Rohit-PC with PID 1496 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:26:57.0133|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:26:59.0962|INFO |Started UserControllerTest in 3.402 seconds (JVM running for 5.863)
+11-03-2021 21:28:17.0439|INFO |Starting UserControllerTest using Java 1.8.0_201 on Rohit-PC with PID 19596 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:28:17.0442|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:28:20.0385|INFO |Started UserControllerTest in 3.445 seconds (JVM running for 5.744)
+11-03-2021 21:28:59.0099|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:28:59.0103|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:02.0810|INFO |Started CourseRDControllerTest in 4.328 seconds (JVM running for 6.901)
+11-03-2021 21:29:03.0265|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:29:03.0268|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:04.0442|INFO |Started SkillControllerTest in 1.217 seconds (JVM running for 8.532)
+11-03-2021 21:29:04.0912|INFO |Starting UserControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:29:04.0916|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:05.0975|INFO |Started UserControllerTest in 1.15 seconds (JVM running for 10.065)
+11-03-2021 21:29:06.0100|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:29:06.0103|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:08.0960|INFO |Started ProjectApplicationTests in 2.912 seconds (JVM running for 13.05)
+11-03-2021 21:29:09.0017|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:29:09.0018|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:09.0732|INFO |Started CourseCUControllerTest in 0.744 seconds (JVM running for 13.822)
+11-03-2021 21:29:09.0888|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20872 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 21:29:09.0891|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 21:29:11.0109|INFO |Started FeedbackControllerTest in 1.286 seconds (JVM running for 15.2)
+11-03-2021 22:05:51.0627|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:05:51.0632|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:05:53.0560|INFO |Started MaterialControllerTest in 2.477 seconds (JVM running for 3.963)
+11-03-2021 22:09:00.0707|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18680 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:09:00.0711|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:09:02.0805|INFO |Started MaterialControllerTest in 2.739 seconds (JVM running for 4.283)
+11-03-2021 22:13:17.0731|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 18664 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:13:17.0734|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:13:19.0742|INFO |Started MaterialControllerTest in 2.665 seconds (JVM running for 4.344)
+11-03-2021 22:13:56.0106|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15472 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:13:56.0109|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:13:57.0994|INFO |Started MaterialControllerTest in 2.417 seconds (JVM running for 3.974)
+11-03-2021 22:14:12.0696|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 16244 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:14:12.0699|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:14:15.0276|INFO |Started MaterialControllerTest in 3.371 seconds (JVM running for 5.368)
+11-03-2021 22:15:31.0163|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20196 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:15:31.0167|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:15:33.0153|INFO |Started MaterialControllerTest in 2.518 seconds (JVM running for 3.997)
+11-03-2021 22:16:09.0030|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:09.0035|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:12.0065|INFO |Started CourseRDControllerTest in 3.639 seconds (JVM running for 6.513)
+11-03-2021 22:16:12.0560|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:12.0564|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:13.0938|INFO |Started SkillControllerTest in 1.43 seconds (JVM running for 8.385)
+11-03-2021 22:16:15.0584|INFO |Starting UserControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:15.0590|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:16.0334|INFO |Started UserControllerTest in 1.251 seconds (JVM running for 10.781)
+11-03-2021 22:16:16.0434|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:16.0436|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:19.0004|INFO |Started ProjectApplicationTests in 2.599 seconds (JVM running for 13.452)
+11-03-2021 22:16:19.0071|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:19.0073|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:19.0944|INFO |Started CourseCUControllerTest in 0.907 seconds (JVM running for 14.392)
+11-03-2021 22:16:20.0063|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:20.0065|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:21.0427|INFO |Started FeedbackControllerTest in 1.414 seconds (JVM running for 15.875)
+11-03-2021 22:16:21.0660|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 15312 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:16:21.0664|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:16:22.0451|INFO |Started MaterialControllerTest in 0.875 seconds (JVM running for 16.899)
+11-03-2021 22:19:13.0369|INFO |Starting CourseRDControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:13.0373|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:15.0213|INFO |Started CourseRDControllerTest in 2.385 seconds (JVM running for 3.948)
+11-03-2021 22:19:15.0592|INFO |Starting SkillControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:15.0594|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:16.0141|INFO |Started SkillControllerTest in 0.582 seconds (JVM running for 4.876)
+11-03-2021 22:19:16.0298|INFO |Starting UserControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:16.0299|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:17.0256|INFO |Started UserControllerTest in 0.984 seconds (JVM running for 5.991)
+11-03-2021 22:19:17.0371|INFO |Starting ProjectApplicationTests using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:17.0374|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:18.0995|INFO |Started ProjectApplicationTests in 1.66 seconds (JVM running for 7.73)
+11-03-2021 22:19:19.0043|INFO |Starting CourseCUControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:19.0044|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:19.0575|INFO |Started CourseCUControllerTest in 0.555 seconds (JVM running for 8.31)
+11-03-2021 22:19:19.0633|INFO |Starting FeedbackControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:19.0634|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:20.0152|INFO |Started FeedbackControllerTest in 0.544 seconds (JVM running for 8.887)
+11-03-2021 22:19:20.0233|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 11936 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:20.0234|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:23.0976|INFO |Started MaterialControllerTest in 3.771 seconds (JVM running for 12.711)
+11-03-2021 22:19:56.0532|INFO |Starting ProjectApplication using Java 1.8.0_201 on Rohit-PC with PID 4792 (C:\Users\Rohit\Desktop\Course Management\Backend\project\target\classes started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:19:56.0535|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:19:59.0356|INFO |Started ProjectApplication in 3.212 seconds (JVM running for 5.036)
+11-03-2021 22:24:16.0154|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 22:24:16.0180|INFO |Fetching all the users
+11-03-2021 22:24:18.0321|INFO |User already exists
+11-03-2021 22:24:18.0444|INFO |Retrieving all the courses
+11-03-2021 22:24:31.0397|INFO |Fetching user with Id 1
+11-03-2021 22:24:31.0428|INFO |Fetching all skills for course with Id 17
+11-03-2021 22:24:31.0441|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:24:31.0489|INFO |Retrieved all materials for course with Id 17
+11-03-2021 22:25:01.0599|INFO |Retrieving all the courses
+11-03-2021 22:25:04.0218|INFO |Retrieving all the courses
+11-03-2021 22:25:04.0473|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:25:04.0549|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 22:25:04.0551|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:25:04.0551|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:25:04.0621|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:25:04.0794|INFO |Retrieved average rating on course with Id 20
+11-03-2021 22:25:04.0795|INFO |Course with Id 20 has no ratings
+11-03-2021 22:25:04.0873|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:25:05.0137|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:25:56.0626|INFO |Retrieving all the courses
+11-03-2021 22:26:55.0580|INFO |New course created with Id 21
+11-03-2021 22:26:55.0696|INFO |Skill added with  Id 21
+11-03-2021 22:26:56.0837|INFO |Added material for course with Id 21
+11-03-2021 22:26:56.0838|INFO |Trying to fetch material with Id 31
+11-03-2021 22:26:58.0172|INFO |Retrieving all the courses
+11-03-2021 22:27:01.0161|INFO |Fetching all skills for course with Id 21
+11-03-2021 22:27:01.0161|INFO |Retrieving all the feedbacks for course with Id 21
+11-03-2021 22:27:01.0189|INFO |Fetching user with Id 1
+11-03-2021 22:27:01.0189|INFO |Retrieved all materials for course with Id 21
+11-03-2021 22:27:12.0236|INFO |Added feedback with Id 12 for course with Id 21
+11-03-2021 22:27:12.0567|INFO |Retrieving all the feedbacks for course with Id 21
+11-03-2021 22:27:13.0531|INFO |Retrieving all the courses
+11-03-2021 22:27:17.0376|INFO |Retrieving all the courses
+11-03-2021 22:27:17.0639|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:27:17.0706|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:27:17.0706|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 22:27:17.0706|INFO |Retrieving all the feedbacks for course with Id 21
+11-03-2021 22:27:17.0706|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:27:17.0713|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:27:17.0967|INFO |Retrieved average rating on course with Id 20
+11-03-2021 22:27:17.0967|INFO |Course with Id 20 has no ratings
+11-03-2021 22:27:18.0033|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:27:18.0033|INFO |Retrieved average rating on course with Id 21
+11-03-2021 22:27:18.0033|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:27:35.0276|INFO |Retrieving all the courses
+11-03-2021 22:27:46.0533|INFO |New course created with Id 22
+11-03-2021 22:27:46.0673|INFO |Skill added with  Id 22
+11-03-2021 22:27:47.0701|INFO |New course created with Id 23
+11-03-2021 22:27:48.0115|INFO |Skill added with  Id 23
+11-03-2021 22:27:48.0903|INFO |New course created with Id 24
+11-03-2021 22:27:49.0322|INFO |Skill added with  Id 24
+11-03-2021 22:27:49.0542|INFO |New course created with Id 25
+11-03-2021 22:27:49.0686|INFO |Skill added with  Id 25
+11-03-2021 22:27:49.0906|INFO |New course created with Id 26
+11-03-2021 22:27:50.0127|INFO |Skill added with  Id 26
+11-03-2021 22:27:50.0281|INFO |New course created with Id 27
+11-03-2021 22:27:50.0432|INFO |New course created with Id 28
+11-03-2021 22:27:50.0632|INFO |Skill added with  Id 27
+11-03-2021 22:27:50.0656|INFO |New course created with Id 29
+11-03-2021 22:27:50.0800|INFO |Skill added with  Id 28
+11-03-2021 22:27:50.0835|INFO |New course created with Id 30
+11-03-2021 22:27:50.0989|INFO |Skill added with  Id 29
+11-03-2021 22:27:51.0038|INFO |New course created with Id 31
+11-03-2021 22:27:51.0204|INFO |Skill added with  Id 31
+11-03-2021 22:27:51.0228|INFO |Skill added with  Id 30
+11-03-2021 22:27:51.0561|INFO |New course created with Id 32
+11-03-2021 22:27:51.0586|INFO |New course created with Id 33
+11-03-2021 22:27:51.0684|INFO |New course created with Id 34
+11-03-2021 22:27:51.0974|INFO |Skill added with  Id 32
+11-03-2021 22:27:51.0998|INFO |Skill added with  Id 34
+11-03-2021 22:27:51.0998|INFO |Skill added with  Id 33
+11-03-2021 22:27:52.0097|INFO |New course created with Id 35
+11-03-2021 22:27:52.0122|INFO |New course created with Id 36
+11-03-2021 22:27:52.0265|INFO |New course created with Id 37
+11-03-2021 22:27:52.0450|INFO |Skill added with  Id 35
+11-03-2021 22:27:52.0474|INFO |Skill added with  Id 36
+11-03-2021 22:27:52.0498|INFO |Skill added with  Id 37
+11-03-2021 22:27:52.0642|INFO |New course created with Id 38
+11-03-2021 22:27:52.0727|INFO |Skill added with  Id 38
+11-03-2021 22:28:06.0250|INFO |Retrieving all the courses
+11-03-2021 22:28:10.0041|INFO |Retrieving all the courses
+11-03-2021 22:28:10.0306|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:28:10.0362|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:28:10.0362|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:28:10.0362|INFO |Retrieving all the feedbacks for course with Id 22
+11-03-2021 22:28:10.0363|INFO |Retrieving all the feedbacks for course with Id 20
+11-03-2021 22:28:10.0363|INFO |Retrieving all the feedbacks for course with Id 21
+11-03-2021 22:28:10.0669|INFO |Retrieving all the feedbacks for course with Id 23
+11-03-2021 22:28:10.0677|INFO |Retrieving all the feedbacks for course with Id 26
+11-03-2021 22:28:10.0677|INFO |Retrieving all the feedbacks for course with Id 24
+11-03-2021 22:28:10.0677|INFO |Retrieving all the feedbacks for course with Id 25
+11-03-2021 22:28:10.0685|INFO |Retrieving all the feedbacks for course with Id 28
+11-03-2021 22:28:10.0685|INFO |Retrieving all the feedbacks for course with Id 27
+11-03-2021 22:28:10.0979|INFO |Retrieving all the feedbacks for course with Id 29
+11-03-2021 22:28:10.0989|INFO |Retrieving all the feedbacks for course with Id 31
+11-03-2021 22:28:10.0989|INFO |Retrieving all the feedbacks for course with Id 30
+11-03-2021 22:28:11.0009|INFO |Retrieving all the feedbacks for course with Id 34
+11-03-2021 22:28:11.0009|INFO |Retrieving all the feedbacks for course with Id 32
+11-03-2021 22:28:11.0009|INFO |Retrieving all the feedbacks for course with Id 33
+11-03-2021 22:28:11.0292|INFO |Retrieving all the feedbacks for course with Id 35
+11-03-2021 22:28:11.0356|INFO |Retrieving all the feedbacks for course with Id 36
+11-03-2021 22:28:11.0356|INFO |Retrieving all the feedbacks for course with Id 38
+11-03-2021 22:28:11.0356|INFO |Retrieving all the feedbacks for course with Id 37
+11-03-2021 22:28:11.0357|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:28:11.0357|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:28:11.0603|INFO |Retrieved average rating on course with Id 22
+11-03-2021 22:28:11.0603|INFO |Course with Id 22 has no ratings
+11-03-2021 22:28:11.0664|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:28:11.0673|INFO |Retrieved average rating on course with Id 21
+11-03-2021 22:28:11.0673|INFO |Retrieved average rating on course with Id 20
+11-03-2021 22:28:11.0673|INFO |Retrieved average rating on course with Id 23
+11-03-2021 22:28:11.0673|INFO |Course with Id 20 has no ratings
+11-03-2021 22:28:11.0673|INFO |Course with Id 23 has no ratings
+11-03-2021 22:28:11.0684|INFO |Retrieved average rating on course with Id 25
+11-03-2021 22:28:11.0684|INFO |Course with Id 25 has no ratings
+11-03-2021 22:28:11.0915|INFO |Retrieved average rating on course with Id 26
+11-03-2021 22:28:11.0915|INFO |Course with Id 26 has no ratings
+11-03-2021 22:28:11.0976|INFO |Retrieved average rating on course with Id 24
+11-03-2021 22:28:11.0976|INFO |Course with Id 24 has no ratings
+11-03-2021 22:28:11.0983|INFO |Retrieved average rating on course with Id 27
+11-03-2021 22:28:11.0984|INFO |Retrieved average rating on course with Id 28
+11-03-2021 22:28:11.0983|INFO |Retrieved average rating on course with Id 29
+11-03-2021 22:28:11.0984|INFO |Course with Id 29 has no ratings
+11-03-2021 22:28:11.0984|INFO |Course with Id 28 has no ratings
+11-03-2021 22:28:11.0984|INFO |Course with Id 27 has no ratings
+11-03-2021 22:28:11.0991|INFO |Retrieved average rating on course with Id 30
+11-03-2021 22:28:11.0991|INFO |Course with Id 30 has no ratings
+11-03-2021 22:28:12.0231|INFO |Retrieved average rating on course with Id 31
+11-03-2021 22:28:12.0232|INFO |Course with Id 31 has no ratings
+11-03-2021 22:28:12.0290|INFO |Retrieved average rating on course with Id 34
+11-03-2021 22:28:12.0290|INFO |Course with Id 34 has no ratings
+11-03-2021 22:28:12.0297|INFO |Retrieved average rating on course with Id 32
+11-03-2021 22:28:12.0298|INFO |Course with Id 32 has no ratings
+11-03-2021 22:28:12.0309|INFO |Retrieved average rating on course with Id 35
+11-03-2021 22:28:12.0309|INFO |Retrieved average rating on course with Id 33
+11-03-2021 22:28:12.0309|INFO |Retrieved average rating on course with Id 38
+11-03-2021 22:28:12.0309|INFO |Course with Id 33 has no ratings
+11-03-2021 22:28:12.0309|INFO |Course with Id 35 has no ratings
+11-03-2021 22:28:12.0309|INFO |Course with Id 38 has no ratings
+11-03-2021 22:28:12.0557|INFO |Retrieved average rating on course with Id 36
+11-03-2021 22:28:12.0557|INFO |Course with Id 36 has no ratings
+11-03-2021 22:28:12.0603|INFO |Retrieved average rating on course with Id 37
+11-03-2021 22:28:12.0604|INFO |Course with Id 37 has no ratings
+11-03-2021 22:28:41.0416|INFO |Retrieving all the courses
+11-03-2021 22:28:48.0281|INFO |Deleting course with Id 22
+11-03-2021 22:28:48.0757|INFO |Retrieving all the courses
+11-03-2021 22:28:49.0216|INFO |Deleting course with Id 23
+11-03-2021 22:28:49.0711|INFO |Retrieving all the courses
+11-03-2021 22:28:50.0143|INFO |Deleting course with Id 24
+11-03-2021 22:28:50.0643|INFO |Retrieving all the courses
+11-03-2021 22:28:51.0050|INFO |Deleting course with Id 25
+11-03-2021 22:28:51.0462|INFO |Retrieving all the courses
+11-03-2021 22:28:52.0944|INFO |Deleting course with Id 27
+11-03-2021 22:28:53.0377|INFO |Retrieving all the courses
+11-03-2021 22:28:53.0454|INFO |Deleting course with Id 27
+11-03-2021 22:28:54.0664|INFO |Deleting course with Id 26
+11-03-2021 22:28:55.0316|INFO |Retrieving all the courses
+11-03-2021 22:28:55.0580|INFO |Deleting course with Id 28
+11-03-2021 22:28:56.0002|INFO |Retrieving all the courses
+11-03-2021 22:28:56.0490|INFO |Deleting course with Id 29
+11-03-2021 22:28:56.0918|INFO |Retrieving all the courses
+11-03-2021 22:28:57.0367|INFO |Deleting course with Id 30
+11-03-2021 22:28:57.0756|INFO |Retrieving all the courses
+11-03-2021 22:28:58.0227|INFO |Deleting course with Id 31
+11-03-2021 22:28:58.0658|INFO |Retrieving all the courses
+11-03-2021 22:28:59.0044|INFO |Deleting course with Id 32
+11-03-2021 22:28:59.0448|INFO |Retrieving all the courses
+11-03-2021 22:29:01.0784|INFO |Deleting course with Id 33
+11-03-2021 22:29:02.0167|INFO |Retrieving all the courses
+11-03-2021 22:29:02.0581|INFO |Deleting course with Id 21
+11-03-2021 22:29:03.0187|INFO |Retrieving all the courses
+11-03-2021 22:29:08.0497|INFO |Deleting course with Id 20
+11-03-2021 22:29:08.0987|INFO |Retrieving all the courses
+11-03-2021 22:29:09.0412|INFO |Deleting course with Id 34
+11-03-2021 22:29:09.0907|INFO |Retrieving all the courses
+11-03-2021 22:29:10.0169|INFO |Deleting course with Id 35
+11-03-2021 22:29:10.0402|INFO |Retrieving all the courses
+11-03-2021 22:29:10.0762|INFO |Deleting course with Id 36
+11-03-2021 22:29:11.0195|INFO |Retrieving all the courses
+11-03-2021 22:29:11.0464|INFO |Deleting course with Id 37
+11-03-2021 22:29:11.0697|INFO |Retrieving all the courses
+11-03-2021 22:29:12.0321|INFO |Deleting course with Id 38
+11-03-2021 22:29:12.0772|INFO |Retrieving all the courses
+11-03-2021 22:29:21.0612|INFO |Retrieving all the courses
+11-03-2021 22:29:21.0940|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:29:21.0940|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:29:21.0940|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:29:22.0206|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:29:22.0270|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:29:22.0270|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:29:37.0073|INFO |Retrieving all the courses
+11-03-2021 22:29:42.0203|INFO |Retrieving all the courses
+11-03-2021 22:29:42.0470|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:29:42.0531|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:29:42.0531|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:29:42.0532|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:29:42.0813|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:29:42.0859|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:29:51.0247|INFO |Retrieving all the courses
+11-03-2021 22:29:55.0246|INFO |Retrieving all the courses
+11-03-2021 22:29:55.0498|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:29:55.0580|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:29:55.0580|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:29:55.0581|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:29:55.0820|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:29:55.0897|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:30:04.0965|INFO |Retrieving all the courses
+11-03-2021 22:30:09.0964|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:30:09.0965|INFO |Retrieved all materials for course with Id 16
+11-03-2021 22:30:09.0965|INFO |Fetching all skills for course with Id 16
+11-03-2021 22:30:09.0974|INFO |Fetching user with Id 2
+11-03-2021 22:30:22.0972|INFO |Added feedback with Id 13 for course with Id 16
+11-03-2021 22:30:23.0285|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:30:28.0903|INFO |Retrieving all the courses
+11-03-2021 22:30:30.0600|INFO |Retrieving all the courses
+11-03-2021 22:30:30.0859|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:30:30.0941|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:30:30.0941|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:30:30.0942|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:30:31.0184|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:30:31.0264|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:30:53.0377|INFO |Trying to add user with email rohit.verma@accolitedigital.com
+11-03-2021 22:30:53.0378|INFO |Fetching all the users
+11-03-2021 22:30:53.0414|INFO |User already exists
+11-03-2021 22:30:53.0452|INFO |Retrieving all the courses
+11-03-2021 22:31:04.0802|INFO |Retrieving all the courses
+11-03-2021 22:31:04.0850|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:31:04.0851|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:31:05.0156|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:31:05.0168|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:31:05.0173|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:31:05.0477|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:31:25.0910|INFO |Retrieving all the courses
+11-03-2021 22:31:28.0152|INFO |Fetching all skills for course with Id 17
+11-03-2021 22:31:28.0466|INFO |Fetching user with Id 1
+11-03-2021 22:31:28.0466|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:31:28.0467|INFO |Retrieved all materials for course with Id 17
+11-03-2021 22:31:30.0517|INFO |Retrieving all the courses
+11-03-2021 22:31:31.0567|INFO |Retrieving all the courses
+11-03-2021 22:31:31.0903|INFO |Retrieving all the feedbacks for course with Id 17
+11-03-2021 22:31:31.0903|INFO |Retrieving all the feedbacks for course with Id 16
+11-03-2021 22:31:31.0903|INFO |Retrieving all the feedbacks for course with Id 2
+11-03-2021 22:31:32.0165|INFO |Retrieved average rating on course with Id 2
+11-03-2021 22:31:32.0227|INFO |Retrieved average rating on course with Id 17
+11-03-2021 22:31:32.0227|INFO |Retrieved average rating on course with Id 16
+11-03-2021 22:41:15.0237|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20308 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 22:41:15.0241|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 22:41:17.0055|INFO |Started MaterialControllerTest in 2.324 seconds (JVM running for 3.771)
+11-03-2021 23:07:55.0591|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 16724 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 23:07:55.0594|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 23:07:57.0417|INFO |Started MaterialControllerTest in 2.381 seconds (JVM running for 3.823)
+11-03-2021 23:09:56.0173|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 16232 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 23:09:56.0176|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 23:09:58.0096|INFO |Started MaterialControllerTest in 2.421 seconds (JVM running for 3.885)
+11-03-2021 23:10:55.0775|INFO |Starting MaterialControllerTest using Java 1.8.0_201 on Rohit-PC with PID 20404 (started by Rohit in C:\Users\Rohit\Desktop\Course Management\Backend\project)
+11-03-2021 23:10:55.0778|INFO |No active profile set, falling back to default profiles: default
+11-03-2021 23:10:57.0673|INFO |Started MaterialControllerTest in 2.445 seconds (JVM running for 3.96)
