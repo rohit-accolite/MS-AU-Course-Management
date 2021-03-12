@@ -13,13 +13,17 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static com.sun.deploy.uitoolkit.impl.awt.AWTClientPrintHelper.print;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.lenient;
 import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.multipart;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(controllers = MaterialController.class)
@@ -32,26 +36,26 @@ public class MaterialControllerTest {
 
     @MockBean
     IMaterialService materialService;
-/*
+
     @Test
-    void addMaterial() throws Exception {
+    public void addNewMaterial() throws Exception {
         Material material = ModelsData.getMaterialData();
+        MultipartFile multipartFile = ModelsData.getMultipartFile();
+        lenient().when(materialService.add(material,multipartFile)).thenReturn(material);
 
         LinkedMultiValueMap<String, String> requestParams = new LinkedMultiValueMap<>();
         requestParams.add("courseId", "1");
         requestParams.add("fileName", "demo");
         requestParams.add("fileType", "application/pdf");
         requestParams.add("createdOn", new Date(System.currentTimeMillis()).toString());
-        requestParams.add("file", "sdjkbcjkdbv");
 
-        when(materialService.add(material, ModelsData.getMultipartFile())).thenReturn(material);
-        mockMvc.perform(MockMvcRequestBuilders.post("/material/add")
-                .contentType(MediaType.MULTIPART_FORM_DATA)
+        mockMvc.perform(multipart("/material/add")
+                .file("file", multipartFile.getBytes())
                 .params(requestParams)
-        ).andExpect(status().isOk()).andReturn();
+        ).andExpect(status().isOk());
+
     }
-    https://stackoverflow.com/questions/17972428/mock-mvc-add-request-parameter-to-test
-*/
+
     @Test
     void getByCourseId() throws Exception {
         Material material = ModelsData.getMaterialData();
